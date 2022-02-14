@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="svgStyle.css" type="text/css"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.0" baseProfile="tiny" xml:space="preserve" style="shape-rendering:geometricPrecision; fill-rule:evenodd;" width="3.37mm" height="3.95856mm" viewBox="-1.685 -3.465 3.37 3.95856">
+		<title>원통형 (2줄)</title>
+		<desc>원통형 (2줄) description.</desc>
+		<metadata>
+			<S100SVG xmlns:iho="http://www.iho.int/SVGMetadata">
+				<Description publisher="KHOA" creationDate="2020-12-06" source="S52Preslib4.0" format="S100SVG" version="0.1" />
+			</S100SVG>
+		</metadata>
+		<rect class="symbolBox layout" fill="none" x="-1.64" y="-3.42" height="3.86856" width="3.28" />
+		<rect class="svgBox layout" fill="none" x="-1.64" y="-3.42" height="3.86856" width="3.28" />
+		<path d=" M 1.4,-2.28 L 1.39,-2.54 L 1.38,-2.8 L 1.34,-3.17 L 1.32,-3.35 L 1.31,-3.42 L -1.31,-3.42 L -1.34,-3.18 L -1.37,-2.85 L -1.4,-2.53 L -1.4,-2.27 L 1.4,-2.28 Z" class="f00002" />
+		<path d=" M 1.41,-1.14 L 1.41,-1.3 L 1.41,-1.59 L 1.41,-1.85 L 1.4,-2.25 L 1.4,-2.28 L -1.4,-2.27 L -1.41,-2.16 L -1.41,-1.77 L -1.41,-1.36 L -1.4,-1.14 L 1.41,-1.14 Z" class="f00001" />
+		<path d=" M 1.4,-1.14 L 1.4,-1.09 L 1.38,-0.7 L 1.35,-0.37 L 1.31,0 L -1.31,0 L -1.33,-0.19 L -1.37,-0.57 L -1.4,-0.9 L -1.4,-1.14 L 1.4,-1.14 Z" class="f00002" />
+		<path d=" M -1.31,-3.42 L 1.31,-3.42 L 1.32,-3.35 L 1.34,-3.17 L 1.38,-2.8 L 1.39,-2.54 L 1.4,-2.25 L 1.41,-1.85 L 1.41,-1.59 L 1.41,-1.3 L 1.4,-1.09 L 1.38,-0.7 L 1.35,-0.37 L 1.31,0 L -1.31,0 L -1.33,-0.19 L -1.36,-0.57 L -1.39,-0.9 L -1.41,-1.36 L -1.41,-1.77 L -1.41,-2.16 L -1.4,-2.53 L -1.37,-2.85 L -1.34,-3.18 L -1.31,-3.42 Z" class="sl f0 s00005" style="stroke-width:0.32;"/>
+		<path d=" M -1.64,0 L 1.64,0 Z" class="sl f0 s00005" style="stroke-width:0.32;" />
+		<path d=" M -1.4,-1.14 L 1.4,-1.14 Z" class="f0 s00005" style="stroke-width:0.32;" />
+		<path d=" M -1.4,-2.28 L 1.4,-2.28 Z" class="f0 s00005" style="stroke-width:0.32;" />
+		<circle class="f00008" cx="0" cy="-0.00036" r="0.44892" />
+		<circle class="f0 s00005" style="stroke-width:0.32;" cx="0" cy="-0.00036" r="0.44892" />
+		<circle class="pivotPoint layout" fill="none" cx="0" cy="0" r="0.36" />
+	</svg>

@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="XML_DEF">
+      <UniqueIdentifier>{6d1a07c8-2d26-4953-9d0f-d240c65fc8fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML_DEF\XML_ELEMENT">
+      <UniqueIdentifier>{b5ea0f7d-4d1b-4d43-b356-c39b0f43c82a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DLL_InteroperabilityCatalog.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="S100_IC_InteroperabilityCatalogue.cpp">
+      <Filter>XML_DEF</Filter>
+    </ClCompile>
+    <ClCompile Include="S100_Catalogue.cpp">
+      <Filter>XML_DEF</Filter>
+    </ClCompile>
+    <ClCompile Include="S100_IC_SaturationOffset.cpp">
+      <Filter>XML_DEF</Filter>
+    </ClCompile>
+    <ClCompile Include="S100_IC_DisplayPlane.cpp">
+      <Filter>XML_DEF</Filter>
+    </ClCompile>
+    <ClCompile Include="S100_IC_Feature.cpp">
+      <Filter>XML_DEF</Filter>
+    </ClCompile>
+    <ClCompile Include="S100_Enumeration.cpp">
+      <Filter>XML_DEF</Filter>
+    </ClCompile>
+    <ClCompile Include="ELE_displayPlanes.cpp">
+      <Filter>XML_DEF\XML_ELEMENT</Filter>
+    </ClCompile>
+    <ClCompile Include="ELE_features.cpp">
+      <Filter>XML_DEF\XML_ELEMENT</Filter>
+    </ClCompile>
+    <ClCompile Include="ELE_suppressedFeatureLayers.cpp">
+      <Filter>XML_DEF\XML_ELEMENT</Filter>
+    </ClCompile>
+    <ClCompile Include="ELE_colorModeOffsets.cpp">
+      <Filter>XML_DEF\XML_ELEMENT</Filter>
+    </ClCompile>
+    <ClCompile Include="ELE_derivedFeatures.cpp">
+      <Filter>XML_DEF\XML_ELEMENT</Filter>
+    </ClCompile>
+    <ClCompile Include="ELE_predefinedProductCombinations.cpp">
+      <Filter>XML_DEF\XML_ELEMENT</Filter>
+    </ClCompile>
+    <ClCompile Include="S100_IC_SuppressedFeatureLayer.cpp">
+      <Filter>XML_DEF</Filter>
+    </ClCompile>
+    <ClCompile Include="S100_IC_HybridFeature.cpp">
+      <Filter>XML_DEF</Filter>
+    </ClCompile>
+    <ClCompile Include="S100_IC_PredefinedCombination.cpp">
+      <Filter>XML_DEF</Filter>
+    </ClCompile>
+    <ClCompile Include="S100_IC_SuppressedFeatureInstance.cpp">
+      <Filter>XML_DEF</Filter>
+    </ClCompile>
+    <ClCompile Include="ELE_hybridizationRules.cpp">
+      <Filter>XML_DEF\XML_ELEMENT</Filter>
+    </ClCompile>
+    <ClCompile Include="S100_IC_FeatureDerivation.cpp">
+      <Filter>XML_DEF</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DLL_InteroperabilityCatalog.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="S100_IC_InteroperabilityCatalogue.h">
+      <Filter>XML_DEF</Filter>
+    </ClInclude>
+    <ClInclude Include="S100_Catalogue.h">
+      <Filter>XML_DEF</Filter>
+    </ClInclude>
+    <ClInclude Include="S100_Enumeration.h">
+      <Filter>XML_DEF</Filter>
+    </ClInclude>
+    <ClInclude Include="S100_IC_SaturationOffset.h">
+      <Filter>XML_DEF</Filter>
+    </ClInclude>
+    <ClInclude Include="S100_IC_DisplayPlane.h">
+      <Filter>XML_DEF</Filter>
+    </ClInclude>
+    <ClInclude Include="S100_IC_Feature.h">
+      <Filter>XML_DEF</Filter>
+    </ClInclude>
+    <ClInclude Include="ELE_displayPlanes.h">
+      <Filter>XML_DEF\XML_ELEMENT</Filter>
+    </ClInclude>
+    <ClInclude Include="ELE_features.h">
+      <Filter>XML_DEF\XML_ELEMENT</Filter>
+    </ClInclude>
+    <ClInclude Include="ELE_suppressedFeatureLayers.h">
+      <Filter>XML_DEF\XML_ELEMENT</Filter>
+    </ClInclude>
+    <ClInclude Include="ELE_derivedFeatures.h">
+      <Filter>XML_DEF\XML_ELEMENT</Filter>
+    </ClInclude>
+    <ClInclude Include="ELE_colorModeOffsets.h">
+      <Filter>XML_DEF\XML_ELEMENT</Filter>
+    </ClInclude>
+    <ClInclude Include="ELE_predefinedProductCombinations.h">
+      <Filter>XML_DEF\XML_ELEMENT</Filter>
+    </ClInclude>
+    <ClInclude Include="S100_IC_PredefinedCombination.h">
+      <Filter>XML_DEF</Filter>
+    </ClInclude>
+    <ClInclude Include="S100_IC_HybridFeature.h">
+      <Filter>XML_DEF</Filter>
+    </ClInclude>
+    <ClInclude Include="S100_IC_SuppressedFeatureInstance.h">
+      <Filter>XML_DEF</Filter>
+    </ClInclude>
+    <ClInclude Include="S100_IC_SuppressedFeatureLayer.h">
+      <Filter>XML_DEF</Filter>
+    </ClInclude>
+    <ClInclude Include="ELE_hybridizationRules.h">
+      <Filter>XML_DEF\XML_ELEMENT</Filter>
+    </ClInclude>
+    <ClInclude Include="S100_IC_FeatureDerivation.h">
+      <Filter>XML_DEF</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DLL_InteroperabilityCatalog.def">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="res\DLL_InteroperabilityCatalog.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DLL_InteroperabilityCatalog.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

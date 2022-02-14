@@ -1,0 +1,8 @@
+// libS111.idl : type library source for libS111.dll  
+
+[ uuid(66E51720-61CF-4E59-ADB7-55EDC35B949D), version(1.0) ]
+library libS111
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+};

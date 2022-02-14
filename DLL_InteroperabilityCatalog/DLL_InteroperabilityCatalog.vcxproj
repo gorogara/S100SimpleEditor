@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{04822ECB-5060-455F-B22A-A40E44C16BB6}</ProjectGuid>
+    <RootNamespace>DLL_InteroperabilityCatalog</RootNamespace>
+    <Keyword>MFCDLLProj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <ProjectName />
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>..\extlibs\pugixml\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\extlibs\pugixml\lib\$(Configuration);$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>..\extlibs\pugixml\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\extlibs\pugixml\lib\$(Configuration);$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>S100_DLL_EXPORTS;WIN32;_WINDOWS;_DEBUG;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ModuleDefinitionFile>.\DLL_InteroperabilityCatalog.def</ModuleDefinitionFile>
+      <AdditionalDependencies>pugixml.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>S100_DLL_EXPORTS;WIN32;_WINDOWS;NDEBUG;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ModuleDefinitionFile>.\DLL_InteroperabilityCatalog.def</ModuleDefinitionFile>
+      <AdditionalDependencies>pugixml.lib</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DLL_InteroperabilityCatalog.cpp" />
+    <ClCompile Include="ELE_colorModeOffsets.cpp" />
+    <ClCompile Include="ELE_derivedFeatures.cpp" />
+    <ClCompile Include="ELE_displayPlanes.cpp" />
+    <ClCompile Include="ELE_features.cpp" />
+    <ClCompile Include="ELE_hybridizationRules.cpp" />
+    <ClCompile Include="ELE_predefinedProductCombinations.cpp" />
+    <ClCompile Include="ELE_suppressedFeatureLayers.cpp" />
+    <ClCompile Include="S100_Catalogue.cpp" />
+    <ClCompile Include="S100_Enumeration.cpp" />
+    <ClCompile Include="S100_IC_DisplayPlane.cpp" />
+    <ClCompile Include="S100_IC_Feature.cpp" />
+    <ClCompile Include="S100_IC_FeatureDerivation.cpp" />
+    <ClCompile Include="S100_IC_HybridFeature.cpp" />
+    <ClCompile Include="S100_IC_InteroperabilityCatalogue.cpp" />
+    <ClCompile Include="S100_IC_PredefinedCombination.cpp" />
+    <ClCompile Include="S100_IC_SaturationOffset.cpp" />
+    <ClCompile Include="S100_IC_SuppressedFeatureInstance.cpp" />
+    <ClCompile Include="S100_IC_SuppressedFeatureLayer.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DLL_InteroperabilityCatalog.h" />
+    <ClInclude Include="ELE_colorModeOffsets.h" />
+    <ClInclude Include="ELE_derivedFeatures.h" />
+    <ClInclude Include="ELE_displayPlanes.h" />
+    <ClInclude Include="ELE_features.h" />
+    <ClInclude Include="ELE_hybridizationRules.h" />
+    <ClInclude Include="ELE_predefinedProductCombinations.h" />
+    <ClInclude Include="ELE_suppressedFeatureLayers.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="S100_Catalogue.h" />
+    <ClInclude Include="S100_Enumeration.h" />
+    <ClInclude Include="S100_IC_DisplayPlane.h" />
+    <ClInclude Include="S100_IC_Feature.h" />
+    <ClInclude Include="S100_IC_FeatureDerivation.h" />
+    <ClInclude Include="S100_IC_HybridFeature.h" />
+    <ClInclude Include="S100_IC_InteroperabilityCatalogue.h" />
+    <ClInclude Include="S100_IC_PredefinedCombination.h" />
+    <ClInclude Include="S100_IC_SaturationOffset.h" />
+    <ClInclude Include="S100_IC_SuppressedFeatureInstance.h" />
+    <ClInclude Include="S100_IC_SuppressedFeatureLayer.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DLL_InteroperabilityCatalog.def" />
+    <None Include="res\DLL_InteroperabilityCatalog.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DLL_InteroperabilityCatalog.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

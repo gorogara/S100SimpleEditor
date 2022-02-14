@@ -1,0 +1,48 @@
+/* 
+ * CSS styles for S-111 Day color table
+ * Source: S-111 V. 1.0.0-20180606
+ * stroke style for symbolBox, svgBox, pivotPoint as in S-101 SVGStyle CSS
+ */
+.layout {display:none} /* used to control visibility of symbolBox, svgBox, pivotPoint (none or inline) */
+.symbolBox {stroke:black;stroke-width:0.32;} /* show the cover of the symbol graphics */
+.svgBox {stroke:blue;stroke-width:0.32;} /* show the entire SVG cover */
+.pivotPoint {stroke:red;stroke-width:0.64;} /* show the pivot/anchor point, 0,0 */
+.sl {stroke-linecap:round;stroke-linejoin:round} /* default line style elements */
+.f0 {fill:none} /* no fill */
+.sCHBLK {stroke:#000000} /*  sRGB line colour for all surface current arrow tokens */
+
+.fSCBN1 {fill:#7652E2} /* sRGB line colour for colour token STEP1: S111 Step 1 color */
+
+.fSCBN2 {fill:#4898D3} /* sRGB line colour for colour token STEP2: S111 Step 2 color */
+
+.fSCBN3 {fill:#61CBE5} /* sRGB line colour for colour token STEP3: S111 Step 3 color */
+
+.fSCBN4 {fill:#6DBC45} /* sRGB line colour for colour token STEP4: S111 Step 4 color */
+
+.fSCBN5 {fill:#B4DC00} /* sRGB line colour for colour token STEP5: S111 Step 5 color */
+
+.fSCBN6 {fill:#CDC100} /* sRGB line colour for colour token STEP6: S111 Step 6 color */
+
+.fSCBN7 {fill:#F8A718} /* sRGB line colour for colour token STEP7: S111 Step 7 color */
+
+.fSCBN8 {fill:#F7A29D} /* sRGB line colour for colour token STEP8: S111 Step 8 color */
+
+.fSCBN9 {fill:#FF1E1E} /* sRGB line colour for colour token STEP9: S111 Step 9 color */
+.sSC001 {stroke:#7652E2}
+.fSC001 {fill:#7652E2}
+.sSC002 {stroke:#4898D3}
+.fSC002 {fill:#4898D3}
+.sSC003 {stroke:#61CBE5}
+.fSC003 {fill:#61CBE5}
+.sSC004 {stroke:#6DBC45}
+.fSC004 {fill:#6DBC45}
+.sSC005 {stroke:#B4DC00}
+.fSC005 {fill:#B4DC00}
+.sSC006 {stroke:#CDC100}
+.fSC006 {fill:#CDC100}
+.sSC007 {stroke:#F8A718}
+.fSC007 {fill:#F8A718}
+.sSC008 {stroke:#F7A29D}
+.fSC008 {fill:#F7A29D}
+.sSC009 {stroke:#FF1E1E}
+.fSC009 {fill:#FF1E1E}

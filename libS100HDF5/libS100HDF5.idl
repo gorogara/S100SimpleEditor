@@ -1,0 +1,8 @@
+﻿// libS100HDF5.idl: libS100HDF5.dll의 형식 라이브러리 소스  
+
+[ uuid(a180f301-7048-43fe-bee9-69854fd982e0), version(1.0) ]
+library libS100HDF5
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+};

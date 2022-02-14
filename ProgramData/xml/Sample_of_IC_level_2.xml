@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Sample ECDIS Interoperability Catalogue Version 0.5 July-21-2016 -->
+<?xml-model href="S100_IC.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<S100IC:S100_IC_InteroperabilityCatalogue xmlns:S100IC="http://www.iho.int/S100/IC" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.iho.int/S100/IC S100_IC.xsd">
+  <name>IOPC201600001</name>
+  <scope>interoperability</scope>
+  <versionNumber>1</versionNumber>
+  <versionDate>2016-07-11</versionDate>
+  <language>eng</language>
+  <description>Example of interoperation catalogue</description>
+  <comment>This is a hypothethical example</comment>
+  <digitalSignatureReference>none</digitalSignatureReference>
+  <digitalSignatureValue></digitalSignatureValue>
+  <requirementType>IHO</requirementType>
+  <productCovered>S-101</productCovered>
+  <productCovered>S-102</productCovered>
+  <productCovered>S-111</productCovered>
+  <productCovered>S-112</productCovered>
+  <productCovered>S-122</productCovered>
+  <productCovered>S-124</productCovered>
+  <productCovered>S-411</productCovered>
+  <productCovered>S-412</productCovered>
+  <S100_IC_SaturationOffset>
+    <offsetDusk>0.5</offsetDusk>
+    <offsetNight>0.3</offsetNight>
+  </S100_IC_SaturationOffset>
+  <displayPlanes>
+    <S100_IC_DisplayPlane>
+      <identifier>1</identifier>
+      <name>DP1 : S-101 with S-102</name>
+      <displayPriority>1</displayPriority>
+      <description>adjust S-101 layer for S-102</description>
+      <S100_IC_SaturationOffset>
+        <offsetDusk>0.5</offsetDusk>
+        <offsetNight>0.3</offsetNight>
+      </S100_IC_SaturationOffset>
+      <features>
+        <S100_IC_Feature id="urn:mrn:iho:s101:1.0:RESARE_1">
+          <featureCode>DepthArea</featureCode>
+          <product>S-101</product>
+          <drawOrder>1</drawOrder>
+          <viewingGroup>13030</viewingGroup>
+          <significant>false</significant>
+        </S100_IC_Feature>
+        <S100_IC_Feature id="urn:mrn:iho:S-100:3.0:1">
+          <featureCode>DredgedArea</featureCode>
+          <product>S-101</product>
+          <drawOrder>2</drawOrder>
+          <viewingGroup>13030</viewingGroup>
+          <significant>false</significant>
+        </S100_IC_Feature>
+      </features>
+    </S100_IC_DisplayPlane>
+    <S100_IC_DisplayPlane>
+      <identifier>2</identifier>
+      <name>DP2 : S-102 with S-101</name>
+      <displayPriority>2</displayPriority>
+      <description>adjust S-102 for S-101</description>
+      <S100_IC_SaturationOffset>
+        <offsetDusk>0.5</offsetDusk>
+        <offsetNight>0.3</offsetNight>
+      </S100_IC_SaturationOffset>
+      <features>
+        <S100_IC_Feature id="urn:mrn:iho:s101:1.0:LNDARE">
+          <featureCode>BathymetricGrid</featureCode>
+          <product>S-102</product>
+          <drawOrder>1</drawOrder>
+          <viewingGroup>20260</viewingGroup>
+          <significant>false</significant>
+        </S100_IC_Feature>
+      </features>
+    </S100_IC_DisplayPlane>
+    <S100_IC_DisplayPlane>
+      <identifier>3</identifier>
+      <name>DP14 : S-101 with S-122</name>
+      <displayPriority>14</displayPriority>
+      <description>adjust S-101 layer for S-102</description>
+      <S100_IC_SaturationOffset>
+        <offsetDusk>0.5</offsetDusk>
+        <offsetNight>0.3</offsetNight>
+      </S100_IC_SaturationOffset>
+      <features>
+        <S100_IC_Feature id="urn:mrn:iho:s101:1.0:DEPCNT">
+          <featureCode>RestrictedArea</featureCode>
+          <product>S-101</product>
+          <drawOrder>1</drawOrder>
+          <viewingGroup>26010</viewingGroup>
+          <significant>false</significant>
+        </S100_IC_Feature>
+      </features>
+    </S100_IC_DisplayPlane>
+    <S100_IC_DisplayPlane>
+      <identifier>4</identifier>
+      <name>DP4 : S-111 with S-101</name>
+      <displayPriority>4</displayPriority>
+      <description>all S-111 current features</description>
+      <!--<S100_IC_SaturationOffset>
+				<offsetDusk>0.5</offsetDusk>
+				<offsetNight>0.3</offsetNight>
+			</S100_IC_SaturationOffset>-->
+      <features>
+        <S100_IC_Feature id="urn:mrn:iho:s111:1.0:CURENT">
+          <featureCode>SurfaceCurrent</featureCode>
+          <product>S-111</product>
+          <drawOrder>1</drawOrder>
+          <viewingGroup>13030</viewingGroup>
+          <significant>false</significant>
+        </S100_IC_Feature>
+      </features>
+    </S100_IC_DisplayPlane>
+    <S100_IC_DisplayPlane>
+      <identifier>5</identifier>
+      <name>DP5 : S-101 with S-111</name>
+      <displayPriority>5</displayPriority>
+      <description>all S-101 features are located here</description>
+      <S100_IC_SaturationOffset>
+        <offsetDusk>0.5</offsetDusk>
+        <offsetNight>0.3</offsetNight>
+      </S100_IC_SaturationOffset>
+      <features>
+        <S100_IC_Feature id="urn:mrn:iho:S-100:3.0:3">
+          <featureCode>LandArea</featureCode>
+          <product>S-101</product>
+          <drawOrder>1</drawOrder>
+          <viewingGroup>12010</viewingGroup>
+          <significant>false</significant>
+        </S100_IC_Feature>
+        <S100_IC_Feature id="urn:mrn:iho:S-100:3.0:4">
+          <featureCode>Pontoon</featureCode>
+          <product>S-101</product>
+          <drawOrder>2</drawOrder>
+          <viewingGroup>12010</viewingGroup>
+          <significant>false</significant>
+        </S100_IC_Feature>
+      </features>
+    </S100_IC_DisplayPlane>
+    <S100_IC_DisplayPlane>
+      <identifier>6</identifier>
+      <name>For LV 2 : S-101 with S-111</name>
+      <displayPriority>15</displayPriority>
+      <description></description>
+      <features>
+        <S100_IC_Feature id="urn:mrn:iho:S-100:3.0:5">
+          <featureCode>CurrentNonGravitational</featureCode>
+          <product>S-101</product>
+          <drawOrder>1</drawOrder>
+          <viewingGroup>33060</viewingGroup>
+          <significant>false</significant>
+        </S100_IC_Feature>
+        <S100_IC_Feature id="urn:mrn:iho:S-100:3.0:6">
+          <featureCode>TidalStreamFloodEbb</featureCode>
+          <product>S-101</product>
+          <drawOrder>2</drawOrder>
+          <viewingGroup>33060</viewingGroup>
+          <significant>false</significant>
+        </S100_IC_Feature>
+        <S100_IC_Feature id="urn:mrn:iho:S-100:3.0:7">
+          <featureCode>Tideway</featureCode>
+          <product>S-101</product>
+          <drawOrder>3</drawOrder>
+          <viewingGroup>33060</viewingGroup>
+          <significant>false</significant>
+        </S100_IC_Feature>
+      </features>
+    </S100_IC_DisplayPlane>
+  </displayPlanes>
+  <predefinedProductCombinations>
+    <S100_IC_PredefinedCombination>
+      <identifier>urn:mrn:iho:iop:0.1:pdc:1</identifier>
+      <name>ENCandCurrents</name>
+      <description>combined S-101 and S-111 - suppressing all ENC current info</description>
+      <useConditions>all conditions</useConditions>
+      <interoperabilityLevel>2</interoperabilityLevel>
+      <includedProduct>S-101</includedProduct>
+      <includedProduct>S-111</includedProduct>
+      <suppressedFeatureLayers>
+        <S100_IC_SuppressedFeatureLayer id="urn:mrn:iho:iop:0.1:sfl:1">
+          <featureCode>CurrentNonGravitational</featureCode>
+          <product>S-101</product>
+          <featureRef>urn:mrn:iho:s111:1.0:CURENT</featureRef>
+        </S100_IC_SuppressedFeatureLayer>
+        <S100_IC_SuppressedFeatureLayer id="urn:mrn:iho:iop:0.1:sfl:2">
+          <featureCode>TidalStreamFloodEbb</featureCode>
+          <product>S-101</product>
+          <featureRef>urn:mrn:iho:s111:1.0:CURENT</featureRef>
+        </S100_IC_SuppressedFeatureLayer>
+        <S100_IC_SuppressedFeatureLayer id="urn:mrn:iho:iop:0.1:sfl:3">
+          <featureCode>Tideway</featureCode>
+          <product>S-101</product>
+          <featureRef>urn:mrn:iho:s111:1.0:CURENT</featureRef>
+        </S100_IC_SuppressedFeatureLayer>
+        <S100_IC_SuppressedFeatureLayer id="urn:mrn:iho:iop:0.1:sfl:4">
+          <featureCode>DepthArea</featureCode>
+          <product>S-101</product>
+          <featureRef>urn:mrn:iho:s111:1.0:DEPARE</featureRef>
+        </S100_IC_SuppressedFeatureLayer>
+      </suppressedFeatureLayers>
+      <colorModeOffsets>
+        <S100_IC_SaturationOffset>
+          <product>S-101</product>
+          <offsetDusk>0.5</offsetDusk>
+          <offsetNight>0.7</offsetNight>
+        </S100_IC_SaturationOffset>
+      </colorModeOffsets>
+    </S100_IC_PredefinedCombination>
+  </predefinedProductCombinations>
+  <hybridizationRules>
+    <S100_IC_SimpleRule id="urn:mrn:iho:iop:1.0:rules:1.1">
+      <ruleIdentifier>simpleRuleX</ruleIdentifier>
+    </S100_IC_SimpleRule>
+    <S100_IC_ThematicRule id="urn:mrn:iho:iop:1.0:rules:2.1">
+      <ruleIdentifier>thematicRuleA</ruleIdentifier>
+    </S100_IC_ThematicRule>
+    <S100_IC_CompleteRule id="urn:mrn:iho:iop:1.0:rules:3.1">
+      <ruleIdentifier>createDepthCoverageSafetyContour</ruleIdentifier>
+    </S100_IC_CompleteRule>
+    <S100_IC_CompleteRule id="urn:mrn:iho:iop:1.0:rules:3.2">
+      <ruleIdentifier>primaryAreaInsideSecondaryArea</ruleIdentifier>
+    </S100_IC_CompleteRule>
+  </hybridizationRules>
+  <hybridPC>
+    <S100_IC_HybridPC>HYBRIDPC.XML</S100_IC_HybridPC>
+  </hybridPC>
+  <hybridFC>
+    <S100_IC_HybridFC>HYBRIDFC.XML</S100_IC_HybridFC>
+  </hybridFC>
+</S100IC:S100_IC_InteroperabilityCatalogue>

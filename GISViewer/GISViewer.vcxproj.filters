@@ -1,0 +1,697 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Dialog">
+      <UniqueIdentifier>{8da6c2fc-c3d7-4d45-b056-a8021141a5a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DockablePane">
+      <UniqueIdentifier>{ca8bc116-be21-4880-b98b-c63b36aca596}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls">
+      <UniqueIdentifier>{dc3048e1-d81f-4169-95c4-a0cdbf1bce28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Configuration">
+      <UniqueIdentifier>{da475934-0cf6-49b0-a6d6-49749887d672}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SVGTestView">
+      <UniqueIdentifier>{0194bb2a-33d4-444c-9279-7c722f4ae048}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Socket">
+      <UniqueIdentifier>{340ebe9f-8d74-422f-b770-ee71908df220}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Tree">
+      <UniqueIdentifier>{165decad-494f-4cfd-8eec-a0ebbc8acf44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ColorMap">
+      <UniqueIdentifier>{49b2262f-eab8-492a-a16b-4f16e0a95f8f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\buttons.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\filelarge.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\filesmall.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\main.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\writelarge.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\writesmall.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ribbon.mfcribbon-ms">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GISViewer.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GISViewerDoc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GISViewer.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar256.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ribbon1.mfcribbon-ms">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\writelarge.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\menu_png.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bitmap2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\png1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\_png_1.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\_png_2.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pngicon1.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pngimage.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pngicon2.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\writesmall.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\icon_exe.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pickArrow.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\cursor1.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\cur\cursor_drag_hand.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="POINTER.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\cursor2.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GISViewer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GISViewerDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GISViewerView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Labeler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogDockLayerManager.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogExPickReport.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="DockablePanePickReport.h">
+      <Filter>DockablePane</Filter>
+    </ClInclude>
+    <ClInclude Include="DockablePaneLayerManager.h">
+      <Filter>DockablePane</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyPageBase.h">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigrationDlg.h">
+      <Filter>Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="Configuration_1.h">
+      <Filter>Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="Configuration_2.h">
+      <Filter>Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogExMovePoint.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckListCtrl.h">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckHeadCtrl.h">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogSVGView.h">
+      <Filter>SVGTestView</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PGEnumString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogProgressBar.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="ComboBoxCtrl.h">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Configuration_3.h">
+      <Filter>Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogExCloseProgram.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="FontCombo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryRgn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditWGS84.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RgnData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogExMovePointDegree.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogExMovePoint3.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeFeatureType.h">
+      <Filter>Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree.h">
+      <Filter>Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="DockablePaneAttributeList.h">
+      <Filter>DockablePane</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogTreeAttributeList.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="DockablePaneEditWindow.h">
+      <Filter>DockablePane</Filter>
+    </ClInclude>
+    <ClInclude Include="MFCTabCtrlMsgToParent.h">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogAddFeatureList.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyGridAttributeModify.h">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyGridVectorModify.h">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogTDSDataset.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="MFCPropertySelectColorGridProperty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DockablePaneRoutePlan.h">
+      <Filter>DockablePane</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrowSurfaceCurrent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogExS102ColorMap.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogOriginFeatureSelect.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogExRoutePlan.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogExDeleteWaypoint.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogExDeleteRoute.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogExChangeRouteName.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogExAddWaypoint.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogExAddRoute.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogCellFeatureList.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="DockablePaneCurrentSelection.h">
+      <Filter>DockablePane</Filter>
+    </ClInclude>
+    <ClInclude Include="DockablePaneLogger.h">
+      <Filter>DockablePane</Filter>
+    </ClInclude>
+    <ClInclude Include="DockablePaneRelation.h">
+      <Filter>DockablePane</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogDockCurrentSelection.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogDockLogger.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogDockRelation.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogExChangeAll.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogExCreateAutoRelation.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogExCreateInformationFeature.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogExCreateNoGeometry.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogExRelationInformation.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogExRelationListAll.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogExRelationView.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogExRelationCreate.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogExRelationInfo.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogExSelectFilter.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogExShowYourMessage.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="FileLoad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorMapCalculator.h">
+      <Filter>ColorMap</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorMapCatalog.h">
+      <Filter>ColorMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>ColorMap</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorMap.h">
+      <Filter>ColorMap</Filter>
+    </ClInclude>
+    <ClInclude Include="LOG.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Catalogue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Configuration_4.h">
+      <Filter>Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="csv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogExCatalogSelect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSVparser.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogExSetSoundingValue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CDialogExCreateLayersub.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CFCPCSettingDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GISViewer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GISViewerDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GISViewerView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Labeler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogDockLayerManager.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogExPickReport.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="DockablePaneLayerManager.cpp">
+      <Filter>DockablePane</Filter>
+    </ClCompile>
+    <ClCompile Include="DockablePanePickReport.cpp">
+      <Filter>DockablePane</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyPageBase.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigrationDlg.cpp">
+      <Filter>Configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="Configuration_2.cpp">
+      <Filter>Configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="Configuration_1.cpp">
+      <Filter>Configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckHeadCtrl.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckListCtrl.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogSVGView.cpp">
+      <Filter>SVGTestView</Filter>
+    </ClCompile>
+    <ClCompile Include="PGEnumString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogExMovePoint.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogProgressBar.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="ComboBoxCtrl.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Configuration_3.cpp">
+      <Filter>Configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogExCloseProgram.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="FontCombo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryRgn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EditWGS84.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RgnData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogExMovePointDegree.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogExMovePoint3.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeFeatureType.cpp">
+      <Filter>Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree.cpp">
+      <Filter>Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="DockablePaneAttributeList.cpp">
+      <Filter>DockablePane</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogTreeAttributeList.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="DockablePaneEditWindow.cpp">
+      <Filter>DockablePane</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCTabCtrlMsgToParent.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogAddFeatureList.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyGridAttributeModify.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyGridVectorModify.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogTDSDataset.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCPropertySelectColorGridProperty.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DockablePaneRoutePlan.cpp">
+      <Filter>DockablePane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrowSurfaceCurrent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogExAddRoute.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogCellFeatureList.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogExAddWaypoint.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogExChangeRouteName.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogExDeleteWaypoint.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogExDeleteRoute.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogExRoutePlan.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogExS102ColorMap.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogOriginFeatureSelect.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="DockablePaneCurrentSelection.cpp">
+      <Filter>DockablePane</Filter>
+    </ClCompile>
+    <ClCompile Include="DockablePaneRelation.cpp">
+      <Filter>DockablePane</Filter>
+    </ClCompile>
+    <ClCompile Include="DockablePaneLogger.cpp">
+      <Filter>DockablePane</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogDockCurrentSelection.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogDockLogger.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogDockRelation.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogExChangeAll.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogExCreateAutoRelation.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogExCreateInformationFeature.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogExCreateNoGeometry.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogExRelationInformation.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogExRelationListAll.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogExRelationView.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogExRelationCreate.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogExRelationInfo.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogExSelectFilter.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogExShowYourMessage.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="FileLoad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorMapCalculator.cpp">
+      <Filter>ColorMap</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorMapCatalog.cpp">
+      <Filter>ColorMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>ColorMap</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorMap.cpp">
+      <Filter>ColorMap</Filter>
+    </ClCompile>
+    <ClCompile Include="LOG.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Configuration_4.cpp">
+      <Filter>Configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogExCatalogSelect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CSVparser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogExSetSoundingValue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CDialogExCreateLayersub.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CFCPCSettingDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GISViewer.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\checkboxes.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\ProgramData\World\korea.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\mouse_icon_move.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\cur\cursor_drag_hand.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon\UserTreeIcon.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\ProgramData\image\logo\logo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon\iconTideTables.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\close.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbar1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbar_feature_edit.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ColorScheme.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\writesmallNew.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\writesmallNew2020.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\writesmallNew2020 (1).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\writesmallNew2020_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

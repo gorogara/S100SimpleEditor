@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2E170712-5B08-4BC5-9959-F3A4BB6958B3}</ProjectGuid>
+    <RootNamespace>GISViewer</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+    <ProjectName>S-100 Simple Editor</ProjectName>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <ExecutablePath>..\Library\BNT;$(ExecutablePath)</ExecutablePath>
+    <IntDir>$(Configuration)\</IntDir>
+    <LibraryPath>..\extlibs\pugixml\lib\$(Configuration);..\extlibs\Clipper\lib\$(Configuration);..\extlibs\libxml2\lib;..\extlibs\CoreLib\$(Configuration);$(LibraryPath)</LibraryPath>
+    <IncludePath>..\extlibs\pugixml\include;..\extlibs\libxml2\include;..\extlibs\libiconv\include;..\extlibs;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>..\extlibs\pugixml\lib\$(Configuration);..\extlibs\Clipper\lib\$(Configuration);..\extlibs\libxml2\lib;..\extlibs\CoreLib\$(Configuration);$(LibraryPath)</LibraryPath>
+    <IncludePath>..\extlibs\pugixml\include;..\extlibs\libxml2\include;..\extlibs\libiconv\include;..\extlibs;$(IncludePath)</IncludePath>
+    <TargetName>KHOA S-100 Viewer</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions);_USE_MATH_DEFINES</PreprocessorDefinitions>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Clipper.lib;pugixml.lib;GeoMetryLibrary.lib;GISLibrary.lib;LatLonUtility.lib;PLLibrary.lib;S100_SVG_D2D1_DLL.lib;S100Geometry.lib;S101Portrayal.lib;</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\DLL\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <PreLinkEvent>
+      <Command>
+      </Command>
+    </PreLinkEvent>
+    <Manifest>
+      <EnableDpiAwareness>false</EnableDpiAwareness>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions);_USE_MATH_DEFINES</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>Clipper.lib;pugixml.lib;GeoMetryLibrary.lib;GISLibrary.lib;LatLonUtility.lib;PLLibrary.lib;S100_SVG_D2D1_DLL.lib;S100Geometry.lib;S101Portrayal.lib;</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <PreLinkEvent>
+      <Command>
+      </Command>
+    </PreLinkEvent>
+    <Manifest>
+      <EnableDpiAwareness>false</EnableDpiAwareness>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="POINTER.cur" />
+    <None Include="ReadMe.txt" />
+    <None Include="res\bitmap1.bmp" />
+    <None Include="res\bitmap2.bmp" />
+    <None Include="res\buttons.bmp" />
+    <None Include="res\cursor1.cur" />
+    <None Include="res\cursor2.cur" />
+    <None Include="res\cur\cursor_drag_hand.cur" />
+    <None Include="res\filelarge.bmp" />
+    <None Include="res\filesmall.bmp" />
+    <None Include="res\GISViewer.ico" />
+    <None Include="res\GISViewer.rc2" />
+    <None Include="res\GISViewerDoc.ico" />
+    <None Include="res\icon1.ico" />
+    <None Include="res\icon_exe.png" />
+    <None Include="res\main.bmp" />
+    <None Include="res\menu_png.bin" />
+    <None Include="res\pickArrow.png" />
+    <None Include="res\png1.png" />
+    <None Include="res\pngicon1.bin" />
+    <None Include="res\pngicon2.bin" />
+    <None Include="res\pngimage.bin" />
+    <None Include="res\ribbon.mfcribbon-ms">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="res\ribbon1.mfcribbon-ms">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="res\Toolbar.bmp" />
+    <None Include="res\Toolbar256.bmp" />
+    <None Include="res\writelarge.bmp" />
+    <None Include="res\writelarge.png" />
+    <None Include="res\writesmall.bmp" />
+    <None Include="res\writesmall.png" />
+    <None Include="res\_png_1.bin" />
+    <None Include="res\_png_2.bin" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ArrowSurfaceCurrent.h" />
+    <ClInclude Include="Catalogue.h" />
+    <ClInclude Include="CDialogExCreateLayersub.h" />
+    <ClInclude Include="CFCPCSettingDlg.h" />
+    <ClInclude Include="Color.h" />
+    <ClInclude Include="ColorMap.h" />
+    <ClInclude Include="ColorMapCalculator.h" />
+    <ClInclude Include="ColorMapCatalog.h" />
+    <ClInclude Include="Configuration_4.h" />
+    <ClInclude Include="csv.h" />
+    <ClInclude Include="CSVparser.hpp" />
+    <ClInclude Include="DialogCellFeatureList.h" />
+    <ClInclude Include="DialogDockCurrentSelection.h" />
+    <ClInclude Include="DialogDockLogger.h" />
+    <ClInclude Include="DialogDockRelation.h" />
+    <ClInclude Include="DialogExAddRoute.h" />
+    <ClInclude Include="DialogExAddWaypoint.h" />
+    <ClInclude Include="DialogExCatalogSelect.h" />
+    <ClInclude Include="DialogExChangeAll.h" />
+    <ClInclude Include="DialogExChangeRouteName.h" />
+    <ClInclude Include="DialogExCreateAutoRelation.h" />
+    <ClInclude Include="DialogExCreateInformationFeature.h" />
+    <ClInclude Include="DialogExCreateNoGeometry.h" />
+    <ClInclude Include="DialogExDeleteRoute.h" />
+    <ClInclude Include="DialogExDeleteWaypoint.h" />
+    <ClInclude Include="DialogExRelationCreate.h" />
+    <ClInclude Include="DialogExRelationInfo.h" />
+    <ClInclude Include="DialogExRelationInformation.h" />
+    <ClInclude Include="DialogExRelationListAll.h" />
+    <ClInclude Include="DialogExRelationView.h" />
+    <ClInclude Include="DialogExRoutePlan.h" />
+    <ClInclude Include="DialogExS102ColorMap.h" />
+    <ClInclude Include="DialogExSelectFilter.h" />
+    <ClInclude Include="DialogExSetSoundingValue.h" />
+    <ClInclude Include="DialogExShowYourMessage.h" />
+    <ClInclude Include="DialogOriginFeatureSelect.h" />
+    <ClInclude Include="DialogTDSDataset.h" />
+    <ClInclude Include="DockablePaneCurrentSelection.h" />
+    <ClInclude Include="DockablePaneLogger.h" />
+    <ClInclude Include="DockablePaneRelation.h" />
+    <ClInclude Include="DockablePaneRoutePlan.h" />
+    <ClInclude Include="FileLoad.h" />
+    <ClInclude Include="LOG.h" />
+    <ClInclude Include="MFCPropertySelectColorGridProperty.h" />
+    <ClInclude Include="PropertyGridVectorModify.h" />
+    <ClInclude Include="DialogAddFeatureList.h" />
+    <ClInclude Include="MFCTabCtrlMsgToParent.h" />
+    <ClInclude Include="PropertyGridAttributeModify.h" />
+    <ClInclude Include="CheckHeadCtrl.h" />
+    <ClInclude Include="CheckListCtrl.h" />
+    <ClInclude Include="ComboBoxCtrl.h" />
+    <ClInclude Include="Common.h" />
+    <ClInclude Include="ConfigrationDlg.h" />
+    <ClInclude Include="Configuration_1.h" />
+    <ClInclude Include="Configuration_2.h" />
+    <ClInclude Include="Configuration_3.h" />
+    <ClInclude Include="DialogDockLayerManager.h" />
+    <ClInclude Include="DialogExCloseProgram.h" />
+    <ClInclude Include="DialogExMovePoint.h" />
+    <ClInclude Include="DialogExMovePoint3.h" />
+    <ClInclude Include="DialogExMovePointDegree.h" />
+    <ClInclude Include="DialogExPickReport.h" />
+    <ClInclude Include="DialogProgressBar.h" />
+    <ClInclude Include="DialogSVGView.h" />
+    <ClInclude Include="DialogTreeAttributeList.h" />
+    <ClInclude Include="DockablePaneLayerManager.h" />
+    <ClInclude Include="DockablePaneAttributeList.h" />
+    <ClInclude Include="DockablePanePickReport.h" />
+    <ClInclude Include="DockablePaneEditWindow.h" />
+    <ClInclude Include="EditWGS84.h" />
+    <ClInclude Include="FontCombo.h" />
+    <ClInclude Include="GeometryRgn.h" />
+    <ClInclude Include="GISViewer.h" />
+    <ClInclude Include="GISViewerDoc.h" />
+    <ClInclude Include="GISViewerView.h" />
+    <ClInclude Include="Labeler.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="PGEnumString.h" />
+    <ClInclude Include="PropertyPageBase.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="RgnData.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Tree.h" />
+    <ClInclude Include="TreeFeatureType.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ArrowSurfaceCurrent.cpp" />
+    <ClCompile Include="CDialogExCreateLayersub.cpp" />
+    <ClCompile Include="CFCPCSettingDlg.cpp" />
+    <ClCompile Include="Color.cpp" />
+    <ClCompile Include="ColorMap.cpp" />
+    <ClCompile Include="ColorMapCalculator.cpp" />
+    <ClCompile Include="ColorMapCatalog.cpp" />
+    <ClCompile Include="Configuration_4.cpp" />
+    <ClCompile Include="CSVparser.cpp" />
+    <ClCompile Include="DialogCellFeatureList.cpp" />
+    <ClCompile Include="DialogDockCurrentSelection.cpp" />
+    <ClCompile Include="DialogDockLogger.cpp" />
+    <ClCompile Include="DialogDockRelation.cpp" />
+    <ClCompile Include="DialogExAddRoute.cpp" />
+    <ClCompile Include="DialogExAddWaypoint.cpp" />
+    <ClCompile Include="DialogExCatalogSelect.cpp" />
+    <ClCompile Include="DialogExChangeAll.cpp" />
+    <ClCompile Include="DialogExChangeRouteName.cpp" />
+    <ClCompile Include="DialogExCreateAutoRelation.cpp" />
+    <ClCompile Include="DialogExCreateInformationFeature.cpp" />
+    <ClCompile Include="DialogExCreateNoGeometry.cpp" />
+    <ClCompile Include="DialogExDeleteRoute.cpp" />
+    <ClCompile Include="DialogExDeleteWaypoint.cpp" />
+    <ClCompile Include="DialogExRelationCreate.cpp" />
+    <ClCompile Include="DialogExRelationInfo.cpp" />
+    <ClCompile Include="DialogExRelationInformation.cpp" />
+    <ClCompile Include="DialogExRelationListAll.cpp" />
+    <ClCompile Include="DialogExRelationView.cpp" />
+    <ClCompile Include="DialogExRoutePlan.cpp" />
+    <ClCompile Include="DialogExS102ColorMap.cpp" />
+    <ClCompile Include="DialogExSelectFilter.cpp" />
+    <ClCompile Include="DialogExSetSoundingValue.cpp" />
+    <ClCompile Include="DialogExShowYourMessage.cpp" />
+    <ClCompile Include="DialogOriginFeatureSelect.cpp" />
+    <ClCompile Include="DialogTDSDataset.cpp" />
+    <ClCompile Include="DockablePaneCurrentSelection.cpp" />
+    <ClCompile Include="DockablePaneLogger.cpp" />
+    <ClCompile Include="DockablePaneRelation.cpp" />
+    <ClCompile Include="DockablePaneRoutePlan.cpp" />
+    <ClCompile Include="FileLoad.cpp" />
+    <ClCompile Include="LOG.cpp" />
+    <ClCompile Include="MFCPropertySelectColorGridProperty.cpp" />
+    <ClCompile Include="PropertyGridVectorModify.cpp" />
+    <ClCompile Include="DialogAddFeatureList.cpp" />
+    <ClCompile Include="MFCTabCtrlMsgToParent.cpp" />
+    <ClCompile Include="PropertyGridAttributeModify.cpp" />
+    <ClCompile Include="CheckHeadCtrl.cpp" />
+    <ClCompile Include="CheckListCtrl.cpp" />
+    <ClCompile Include="ComboBoxCtrl.cpp" />
+    <ClCompile Include="ConfigrationDlg.cpp" />
+    <ClCompile Include="Configuration_1.cpp" />
+    <ClCompile Include="Configuration_2.cpp" />
+    <ClCompile Include="Configuration_3.cpp" />
+    <ClCompile Include="DialogDockLayerManager.cpp" />
+    <ClCompile Include="DialogExCloseProgram.cpp" />
+    <ClCompile Include="DialogExMovePoint.cpp" />
+    <ClCompile Include="DialogExMovePoint3.cpp" />
+    <ClCompile Include="DialogExMovePointDegree.cpp" />
+    <ClCompile Include="DialogExPickReport.cpp" />
+    <ClCompile Include="DialogProgressBar.cpp" />
+    <ClCompile Include="DialogSVGView.cpp" />
+    <ClCompile Include="DialogTreeAttributeList.cpp" />
+    <ClCompile Include="DockablePaneLayerManager.cpp" />
+    <ClCompile Include="DockablePaneAttributeList.cpp" />
+    <ClCompile Include="DockablePanePickReport.cpp" />
+    <ClCompile Include="DockablePaneEditWindow.cpp" />
+    <ClCompile Include="EditWGS84.cpp" />
+    <ClCompile Include="FontCombo.cpp" />
+    <ClCompile Include="GeometryRgn.cpp" />
+    <ClCompile Include="GISViewer.cpp" />
+    <ClCompile Include="GISViewerDoc.cpp" />
+    <ClCompile Include="GISViewerView.cpp" />
+    <ClCompile Include="Labeler.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="PGEnumString.cpp" />
+    <ClCompile Include="PropertyPageBase.cpp" />
+    <ClCompile Include="RgnData.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Tree.cpp" />
+    <ClCompile Include="TreeFeatureType.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GISViewer.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\ProgramData\image\logo\logo.png" />
+    <Image Include="..\ProgramData\World\korea.bmp" />
+    <Image Include="res\bitmap5.bmp" />
+    <Image Include="res\bitmap6.bmp" />
+    <Image Include="res\bitmap7.bmp" />
+    <Image Include="res\checkboxes.bmp" />
+    <Image Include="res\close.bmp" />
+    <Image Include="res\ColorScheme.bmp" />
+    <Image Include="res\cur\cursor_drag_hand.png" />
+    <Image Include="res\icon\iconTideTables.png" />
+    <Image Include="res\icon\UserTreeIcon.bmp" />
+    <Image Include="res\mouse_icon_move.ico" />
+    <Image Include="res\toolbar1.bmp" />
+    <Image Include="res\toolbar_feature_edit.bmp" />
+    <Image Include="res\writesmallNew.png" />
+    <Image Include="res\writesmallNew2020 (1).png" />
+    <Image Include="res\writesmallNew2020.png" />
+    <Image Include="res\writesmallNew2020_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DLL_InteroperabilityCatalog\DLL_InteroperabilityCatalog.vcxproj">
+      <Project>{04822ecb-5060-455f-b22a-a40e44c16bb6}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\DLL_MessageProcess\DLL_MessageProcess.vcxproj">
+      <Project>{c5954b5e-ec94-478f-8f99-3adcba00b70a}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\FeatureCatalog\FeatureCatalog.vcxproj">
+      <Project>{4964c844-dae9-4dd3-b9d9-daa7520d019a}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\LibMFCUtil\LibMFCUtil.vcxproj">
+      <Project>{423e4835-a278-43c4-ad2d-e8a4d0c98f8a}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\libS100HDF5\libS100HDF5.vcxproj">
+      <Project>{e7e8bf60-522c-4b32-b4fb-26ec32c95f4f}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\libS111\libS111.vcxproj">
+      <Project>{d7042d3c-a920-40f0-b6c4-b331c70b6400}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\LuaScriptingReference\LuaScriptingReference.vcxproj">
+      <Project>{33943243-a35e-42c3-ad7e-b6be65f4bc47}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\MetadataSetDll\MetadataSetDll.vcxproj">
+      <Project>{40c9a767-8996-4c2b-ade5-b85122aae0b4}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\RoutePlanner\RoutePlanner.vcxproj">
+      <Project>{8d774aaf-2cad-4b5a-8065-300a66317660}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\S100DatasetGML\S100DatasetGML.vcxproj">
+      <Project>{f344c9ba-a867-414a-a4ef-58b0ef326707}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\S100DatasetManager\S100DatasetManager.vcxproj">
+      <Project>{837160f3-9832-41b9-a316-4f72bbb5befa}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\S100EditingResource\S100EditingResource.vcxproj">
+      <Project>{54cc752a-ace9-4dea-82ac-0f401bb4653c}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\S100Engine\S100Engine.vcxproj">
+      <Project>{e3f7a8cb-3453-4046-a4fc-94bb8769021a}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\S100ExchangeSet\S100ExchangeSet.vcxproj">
+      <Project>{ac5f12f8-9448-4a75-befa-8065a78992c0}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="GISViewer.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

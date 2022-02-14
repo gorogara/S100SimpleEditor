@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="svgStyle.css" type="text/css"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.0" baseProfile="tiny" xml:space="preserve" style="shape-rendering:geometricPrecision; fill-rule:evenodd;" width="9.13mm" height="6.66772mm" viewBox="-4.565 -6.055 9.13 6.66772">
+		<title>등명기</title>
+		<desc>등명기 description.</desc>
+		<metadata>
+			<S100SVG xmlns:iho="http://www.iho.int/SVGMetadata">
+				<Description publisher="KHOA" creationDate="2020-12-08" source="S52Preslib4.0" format="S100SVG" version="0.1" />
+			</S100SVG>
+		</metadata>
+		<rect class="symbolBox layout" fill="none" x="-4.52" y="-6.01" height="6.57772" width="9.04" />
+		<rect class="svgBox layout" fill="none" x="-4.52" y="-6.01" height="6.57772" width="9.04" />
+  	<path d=" M 4.52,-5.35 L 4.51,-5.45 L 0.98,-5.18 L 0.97,-5.17 L 4.5,-4.9 L 4.51,-5.02 L 4.52,-5.35 Z" class="f00008" style="fill-opacity:0.8;" />
+		<path d=" M 4.51,-5.45 L 4.5,-5.61 L 4.45,-5.93 L 4.43,-6.01 L 0.99,-5.18 L 0.98,-5.18 L 0.97,-5.17 L 0.97,-5.17 L 0.97,-5.17 L 4.41,-4.35 L 4.44,-4.5 L 4.49,-4.76 L 4.5,-4.9 L 4.51,-5.02 L 4.52,-5.35 L 4.51,-5.45 Z" class="sl f0 s00009" style="stroke-width:0.32;" />
+	  <path d=" M 4.51,-5.45 L 4.5,-5.61 L 4.45,-5.93 L 4.43,-6.01 L 0.99,-5.18 L 0.98,-5.18 L 0.97,-5.17 L 0.97,-5.17 L 0.97,-5.17 L 4.41,-4.35 L 4.44,-4.5 L 4.49,-4.76 L 4.5,-4.9 L 4.51,-5.02 L 4.52,-5.35 L 4.51,-5.45 Z" class="f00006" style="fill-opacity:0.5;" />
+	  <path d=" M -4.52,-5.35 L -4.51,-5.45 L -0.98,-5.18 L -0.97,-5.17 L -4.5,-4.9 L -4.51,-5.02 L -4.52,-5.35 Z" class="f00008" style="fill-opacity:0.8;" />
+  	<path d=" M -4.51,-5.45 L -4.5,-5.61 L -4.45,-5.93 L -4.43,-6.01 L -0.99,-5.18 L -0.98,-5.18 L -0.97,-5.17 L -0.97,-5.17 L -0.97,-5.17 L -4.41,-4.35 L -4.44,-4.5 L -4.49,-4.76 L -4.5,-4.9 L -4.51,-5.02 L -4.52,-5.35 L -4.51,-5.45 Z" class="sl f0 s00009" style="stroke-width:0.32;" />
+    <path d=" M -4.51,-5.45 L -4.5,-5.61 L -4.45,-5.93 L -4.43,-6.01 L -0.99,-5.18 L -0.98,-5.18 L -0.97,-5.17 L -0.97,-5.17 L -0.97,-5.17 L -4.41,-4.35 L -4.44,-4.5 L -4.49,-4.76 L -4.5,-4.9 L -4.51,-5.02 L -4.52,-5.35 L -4.51,-5.45 Z" class="f00006" style="fill-opacity:0.5;" />
+		<circle class="pivotPoint layout" fill="none" cx="0" cy="0" r="0.36" />
+	</svg>

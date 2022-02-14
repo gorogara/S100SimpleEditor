@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="svgStyle.css" type="text/css"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.0" baseProfile="tiny" xml:space="preserve" style="shape-rendering:geometricPrecision; fill-rule:evenodd;" width="2.09mm" height="7.39856mm" viewBox="-1.045 -6.905 2.09 7.39856">
+		<title>등대 (등롱이 있는경우)</title>
+		<desc>등대 (등롱이 있는경우) description.</desc>
+		<metadata>
+			<S100SVG xmlns:iho="http://www.iho.int/SVGMetadata">
+				<Description publisher="KHOA" creationDate="2020-12-08" source="S52Preslib4.0" format="S100SVG" version="0.1" />
+			</S100SVG>
+		</metadata>
+		<rect class="symbolBox layout" fill="none" x="-1" y="-6.86" height="7.30856" width="2" />
+		<rect class="svgBox layout" fill="none" x="-1" y="-6.86" height="7.30856" width="2" />
+		<path d=" M -0.72,-4.22 L -0.9,0 L 0.9,0 L 0.72,-4.22 L -0.72,-4.22 Z" class="f00006" />
+		<path d=" M -0.72,-4.22 L -0.9,0 L 0.9,0 L 0.72,-4.22 L -0.72,-4.22 Z" class="sl f0 s00005" style="stroke-width:0.32;" />
+		<path d=" M -0.52,-5.57 L -0.52,-5.57 L -0.52,-4.66 L 0.52,-4.66 L 0.52,-5.57 L -0.52,-5.57 Z" class="f00006" />
+		<path d=" M -0.52,-5.57 L -0.52,-5.57 L -0.52,-4.66 L 0.52,-4.66 L 0.52,-5.57 L -0.52,-5.57 Z" class="sl f0 s00005" style="stroke-width:0.32;" />
+		<circle class="f00008" cx="0" cy="-0.00036" r="0.44892" />
+		<circle class="f0 s00005" style="stroke-width:0.32;" cx="0" cy="-0.00036" r="0.44892" />
+		<path d=" M 0,-3.41 L 0,-2.92 Z" class="f0 s00005" style="stroke-width:0.32;" />
+		<path d=" M 0,-1.97 L 0,-1.48 Z" class="f0 s00005" style="stroke-width:0.32;" />
+		<path d=" M -1,-4.66 L -1,-4.66 L -1,-4.22 L 1,-4.22 L 1,-4.66 L -1,-4.66 Z" class="f00006" />
+		<path d=" M -1,-4.66 L -1,-4.66 L -1,-4.22 L 1,-4.22 L 1,-4.66 L -1,-4.66 Z" class="sl f0 s00005" style="stroke-width:0.32;" />
+		<path d=" M -0.76,-5.94 L -0.76,-5.94 L -0.76,-5.57 L 0.76,-5.57 L 0.76,-5.94 L -0.76,-5.94 Z" class="f00006" />
+		<path d=" M -0.76,-5.94 L -0.76,-5.94 L -0.76,-5.57 L 0.76,-5.57 L 0.76,-5.94 L -0.76,-5.94 Z" class="sl f0 s00005" style="stroke-width:0.32;" />
+		<path d=" M 0.51,-6.14 L 0.51,-6.14 L 0.5,-6.21 L 0.48,-6.3 L 0.46,-6.39 L 0.45,-6.42 L 0.44,-6.46 L 0.43,-6.49 L 0.42,-6.52 L 0.39,-6.58 L 0.36,-6.63 L 0.32,-6.68 L 0.31,-6.7 L 0.29,-6.72 L 0.27,-6.74 L 0.24,-6.76 L 0.2,-6.8 L 0.18,-6.81 L 0.15,-6.83 L 0.13,-6.84 L 0.11,-6.85 L 0.06,-6.86 L 0.03,-6.86 L 0.01,-6.86 L -0.02,-6.86 L -0.04,-6.86 L -0.1,-6.85 L -0.12,-6.84 L -0.15,-6.83 L -0.21,-6.79 L -0.27,-6.75 L -0.29,-6.72 L -0.31,-6.7 L -0.34,-6.67 L -0.36,-6.64 L -0.37,-6.61 L -0.39,-6.58 L -0.41,-6.54 L -0.43,-6.5 L -0.44,-6.46 L -0.45,-6.43 L -0.48,-6.36 L -0.48,-6.32 L -0.49,-6.27 L -0.5,-6.2 L -0.51,-6.14 L -0.51,-6.14 L -0.51,-5.94 L 0.51,-5.94 L 0.51,-6.14 L 0.51,-6.14 Z" class="f00006" />
+		<path d=" M 0.51,-6.14 L 0.51,-6.14 L 0.5,-6.21 L 0.48,-6.3 L 0.46,-6.39 L 0.45,-6.42 L 0.44,-6.46 L 0.43,-6.49 L 0.42,-6.52 L 0.39,-6.58 L 0.36,-6.63 L 0.32,-6.68 L 0.31,-6.7 L 0.29,-6.72 L 0.27,-6.74 L 0.24,-6.76 L 0.2,-6.8 L 0.18,-6.81 L 0.15,-6.83 L 0.13,-6.84 L 0.11,-6.85 L 0.06,-6.86 L 0.03,-6.86 L 0.01,-6.86 L -0.02,-6.86 L -0.04,-6.86 L -0.1,-6.85 L -0.12,-6.84 L -0.15,-6.83 L -0.21,-6.79 L -0.27,-6.75 L -0.29,-6.72 L -0.31,-6.7 L -0.34,-6.67 L -0.36,-6.64 L -0.37,-6.61 L -0.39,-6.58 L -0.41,-6.54 L -0.43,-6.5 L -0.44,-6.46 L -0.45,-6.43 L -0.48,-6.36 L -0.48,-6.32 L -0.49,-6.27 L -0.5,-6.2 L -0.51,-6.14 L -0.51,-6.14 L -0.51,-5.94 L 0.51,-5.94 L 0.51,-6.14 L 0.51,-6.14 Z" class="sl f0 s00005" style="stroke-width:0.32;" />
+		<circle class="pivotPoint layout" fill="none" cx="0" cy="0" r="0.36" />
+	</svg>

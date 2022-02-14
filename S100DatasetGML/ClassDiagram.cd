@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="S100DatasetGML::GMLPoint">
+    <Position X="0.5" Y="6.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAYIAAAAAAAAAAAAAAAAYABgAAAAQAA=</HashCode>
+      <FileName>GMLPoint.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="S100DatasetGML::S100GML_FeatureType">
+    <Position X="9.75" Y="8.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>gACBAAAEgAAAIAAAAgAACAAAQEAACAAAAAEAAAICggA=</HashCode>
+      <FileName>S100GML_FeatureType.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="S100DatasetGML::S100GML_InformationType">
+    <Position X="12.5" Y="8.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAABAAgAAAAAAAAAAgAAAAAAAIAAAIAAAAAAAAAAggA=</HashCode>
+      <FileName>S100GML_InformationType.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="S100DatasetGML::S100GML_Association">
+    <Position X="7.25" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>YBAEACEAAAAAIAAAAAAACBAAAAIAAAAAAAAAQEIAAgA=</HashCode>
+      <FileName>S100GML_Association.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="S100DatasetGML::S100GML_Attribute">
+    <Position X="9.75" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AIAAAIAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAgkA=</HashCode>
+      <FileName>S100GML_Attribute.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="S100DatasetGML::S100GML_Curve">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAACAAAAgAAAABAAAAAAEAEAAAAAAAAAA=</HashCode>
+      <FileName>S100GML_Curve.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="S100DatasetGML::S100GML_Geometry">
+    <Position X="2" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAgAAAAAACAAAAEAABAAAEAAAAA=</HashCode>
+      <FileName>S100GML_Geometry.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="S100DatasetGML::S100GML_Point">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAgAAIAAAAAABAEAAAAAAAAAAAA=</HashCode>
+      <FileName>S100GML_Point.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="S100DatasetGML::S100GML_Surface">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAQAAAAAAAAAAAEAEAABAAAAAAAgA=</HashCode>
+      <FileName>S100GML_Surface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CS100DatasetGMLApp">
+    <Position X="7.25" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>S100DatasetGML.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="S100GML_Dataset_PROC">
+    <Position X="7.25" Y="8.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>BDAAAAEAAAAAAAAAAEAAAAAAAAAAEAAAAAAAAAAQAgA=</HashCode>
+      <FileName>S100GML_Dataset_PROC.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GMLStringTokenizer">
+    <Position X="12.5" Y="1.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAoIAAAAAgAAAAAAAABAAAAAAAAAAAIADAAA=</HashCode>
+      <FileName>WStringToken.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>

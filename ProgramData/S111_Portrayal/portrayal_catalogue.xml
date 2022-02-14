@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<?pcbinfo name="S-111_1.0.0_Surface current Product Specification" fieldOfApplication="Marine navigation" scope="Grobal" versionDate="2018-08-14" user="S100WG" organization="IHO"?>
+<portrayalCatalog xmlns:xsl="http://www.w3.org/2001/XMLSchema" productId="S-111" version="1.0">
+  <pixmaps/>
+  <colorProfiles>
+    <colorProfile id="sample1">
+      <description>
+        <name>sample1</name>
+        <description>color profile with day colors for testing</description>
+        <language>eng</language>
+      </description>
+      <fileName>colorProfile.xml</fileName>
+      <fileType>ColorProfile</fileType>
+      <fileFormat>XML</fileFormat>
+    </colorProfile>
+  </colorProfiles>
+  <symbols>
+    <symbol id="SCAROW01">
+      <description>
+        <name>SCAROW01</name>
+        <description>symbol for surface current arrow</description>
+        <language>eng</language>
+      </description>
+      <fileName>SCAROW01.svg</fileName>
+      <fileType>Symbol</fileType>
+      <fileFormat>SVG</fileFormat>
+    </symbol>
+    <symbol id="SCAROW02">
+      <description>
+        <name>SCAROW02</name>
+        <description>symbol for surface current arrow</description>
+        <language>eng</language>
+      </description>
+      <fileName>SCAROW02.svg</fileName>
+      <fileType>Symbol</fileType>
+      <fileFormat>SVG</fileFormat>
+    </symbol>
+    <symbol id="SCAROW03">
+      <description>
+        <name>SCAROW03</name>
+        <description>symbol for surface current arrow</description>
+        <language>eng</language>
+      </description>
+      <fileName>SCAROW03.svg</fileName>
+      <fileType>Symbol</fileType>
+      <fileFormat>SVG</fileFormat>
+    </symbol>
+    <symbol id="SCAROW04">
+      <description>
+        <name>SCAROW04</name>
+        <description>symbol for surface current arrow</description>
+        <language>eng</language>
+      </description>
+      <fileName>SCAROW04.svg</fileName>
+      <fileType>Symbol</fileType>
+      <fileFormat>SVG</fileFormat>
+    </symbol>
+    <symbol id="SCAROW05">
+      <description>
+        <name>SCAROW05</name>
+        <description>symbol for surface current arrow</description>
+        <language>eng</language>
+      </description>
+      <fileName>SCAROW05.svg</fileName>
+      <fileType>Symbol</fileType>
+      <fileFormat>SVG</fileFormat>
+    </symbol>
+    <symbol id="SCAROW06">
+      <description>
+        <name>SCAROW06</name>
+        <description>symbol for surface current arrow</description>
+        <language>eng</language>
+      </description>
+      <fileName>SCAROW06.svg</fileName>
+      <fileType>Symbol</fileType>
+      <fileFormat>SVG</fileFormat>
+    </symbol>
+    <symbol id="SCAROW07">
+      <description>
+        <name>SCAROW07</name>
+        <description>symbol for surface current arrow</description>
+        <language>eng</language>
+      </description>
+      <fileName>SCAROW07.svg</fileName>
+      <fileType>Symbol</fileType>
+      <fileFormat>SVG</fileFormat>
+    </symbol>
+    <symbol id="SCAROW08">
+      <description>
+        <name>SCAROW08</name>
+        <description>symbol for surface current arrow</description>
+        <language>eng</language>
+      </description>
+      <fileName>SCAROW08.svg</fileName>
+      <fileType>Symbol</fileType>
+      <fileFormat>SVG</fileFormat>
+    </symbol>
+    <symbol id="SCAROW09">
+      <description>
+        <name>SCAROW09</name>
+        <description>symbol for surface current arrow</description>
+        <language>eng</language>
+      </description>
+      <fileName>SCAROW09.svg</fileName>
+      <fileType>Symbol</fileType>
+      <fileFormat>SVG</fileFormat>
+    </symbol>
+  </symbols>
+  <styleSheets>
+    <styleSheet id="daySvgStyle">
+      <description>
+        <name>Day</name>
+        <description>CSS file for day palette</description>
+        <language>eng</language>
+      </description>
+      <fileName>SVGStyle_S111day.css</fileName>
+      <fileType>StyleSheet</fileType>
+      <fileFormat>XML</fileFormat>
+      <!-- fileFormat will need to be updated when Part 9 is updated to include CSS file format. -->
+    </styleSheet>
+    <styleSheet id="duskSvgStyle">
+      <description>
+        <name>Dusk</name>
+        <description>CSS file for dusk palette</description>
+        <language>eng</language>
+      </description>
+      <fileName>SVGStyle_S111dusk.css</fileName>
+      <fileType>StyleSheet</fileType>
+      <fileFormat>XML</fileFormat>
+      <!-- fileFormat will need to be updated when Part 9 is updated to include CSS file format. -->
+    </styleSheet>
+    <styleSheet id="nightSvgStyle">
+      <description>
+        <name>Night</name>
+        <description>CSS file for night palette</description>
+        <language>eng</language>
+      </description>
+      <fileName>SVGStyle_S111night.css</fileName>
+      <fileType>StyleSheet</fileType>
+      <fileFormat>XML</fileFormat>
+      <!-- fileFormat will need to be updated when Part 9 is updated to include CSS file format. -->
+    </styleSheet>
+  </styleSheets>
+  <lineStyles/>
+  <areaFills/>
+  <fonts/>
+  <viewingGroups>
+	<viewingGroup id="13030">
+         <description>
+            <name>All features</name>
+            <description>The only viewing group</description>
+            <language>eng</language>
+         </description>
+	</viewingGroup>
+  </viewingGroups>
+  <foundationMode/>
+  <viewingGroupLayers>
+	<viewingGroupLayer id="1">
+         <description>
+            <name>1 - All Features</name>
+            <description>All Features</description>
+            <language>eng</language>
+         </description>
+		 <viewingGroup>13030</viewingGroup>
+	</viewingGroupLayer>
+  </viewingGroupLayers>
+  <displayModes>
+      <displayMode id="1">
+         <description>
+            <name>All Features</name>
+            <description>Displays all features</description>
+            <language>eng</language>
+         </description>
+         <viewingGroupLayer>1</viewingGroupLayer>
+      </displayMode>
+  </displayModes>
+  <displayPlanes>
+      <displayPlane id="UNDERRADAR">
+         <description>
+            <name>underRadar</name>
+            <description>Content displayed on underneath of Radar image</description>
+            <language>eng</language>
+         </description>
+      </displayPlane>
+  </displayPlanes>
+  <context/>
+  <rules>
+	<ruleFile id="1">
+	 <description>
+		<name>main</name>
+		<description>main</description>
+		<language>eng</language>
+	 </description>
+	 <fileName>main.xsl</fileName>
+	 <fileType>Rule</fileType>
+	 <fileFormat>XSLT</fileFormat>
+	 <ruleType>TopLevelTemplate</ruleType>
+  </ruleFile>  
+    <ruleFile id="2">
+      <description>
+        <name>SurfaceCurrent</name>
+        <description>Surface Current</description>
+        <language>eng</language>
+      </description>
+      <fileName>SurfaceCurrent.xsl</fileName>
+      <fileType>Rule</fileType>
+      <fileFormat>XSLT</fileFormat>
+      <ruleType>SubTemplate</ruleType>
+    </ruleFile>
+    <ruleFile id="3">
+      <description>
+        <name>select_arrow</name>
+        <description>Surface Current</description>
+        <language>eng</language>
+      </description>
+      <fileName>select_arrow.xsl</fileName>
+      <fileType>Rule</fileType>
+      <fileFormat>XSLT</fileFormat>
+      <ruleType>SubTemplate</ruleType>
+    </ruleFile>
+   <ruleFile id="4">
+      <description>
+        <name>select_arrow_coverage</name>
+        <description>Surface Current</description>
+        <language>eng</language>
+      </description>
+      <fileName>select_arrow_coverage.xsl</fileName>
+      <fileType>Rule</fileType>
+      <fileFormat>XSLT</fileFormat>
+      <ruleType>SubTemplate</ruleType>
+    </ruleFile>		
+  </rules>
+</portrayalCatalog>

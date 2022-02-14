@@ -1,0 +1,3 @@
+// 힌트 파일은 Visual Studio IDE에서 함수 및 매크로 이름과 같은 Visual C++ 식별자를  
+#define KRS_LUA_SCRIPT_REFERENCE_API __declspec(dllexport)
+#define KRS_LUA_SCRIPT_REFERENCE_API __declspec(dllimport)

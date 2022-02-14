@@ -1,0 +1,1721 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S100FC:S100_FC_FeatureCatalogue xmlns:S100FC="http://www.iho.int/S100FC" xmlns:S100Base="http://www.iho.int/S100Base" xmlns:S100CI="http://www.iho.int/S100CI" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:S100FD="http://www.iho.int/S100FD" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.iho.int/S100FC S100FC.xsd">
+  <S100FC:name>S-124</S100FC:name>
+  <S100FC:scope>S-124 NW</S100FC:scope>
+  <S100FC:versionNumber>1.0</S100FC:versionNumber>
+  <S100FC:versionDate>2019-08-19</S100FC:versionDate>
+  <S100FC:producer>
+    <S100CI:role>pointOfContact</S100CI:role>
+    <S100CI:party>
+      <S100CI:CI_Organisation>
+        <S100CI:name>>IHO</S100CI:name>
+        <S100CI:contactInfo>
+          <S100CI:address>
+            <S100CI:administrativeArea>4b quai Antonie 1er</S100CI:administrativeArea>
+            <S100CI:country>Monaco</S100CI:country>
+            <S100CI:electronicMailAddress>info@iho.int</S100CI:electronicMailAddress>
+          </S100CI:address>
+          <S100CI:onlineResource>
+            <S100CI:linkage>www.iho.int</S100CI:linkage>
+          </S100CI:onlineResource>
+        </S100CI:contactInfo>
+      </S100CI:CI_Organisation>
+    </S100CI:party>
+  </S100FC:producer>
+  <S100FC:S100_FC_SimpleAttributes>
+    <S100FC:S100_FC_SimpleAttribute>
+      <S100FC:name>Chart Publication Identifier</S100FC:name>
+      <S100FC:definition>Chart Publication Identifier</S100FC:definition>
+      <S100FC:code>chartPublicationIdentifier</S100FC:code>
+      <S100FC:valueType>URN</S100FC:valueType>
+    </S100FC:S100_FC_SimpleAttribute>
+    <S100FC:S100_FC_SimpleAttribute>
+      <S100FC:name>S124_Locality Identifier</S100FC:name>
+      <S100FC:definition>S124_Locality Identifier</S100FC:definition>
+      <S100FC:code>S124_localityIdentifier</S100FC:code>
+      <S100FC:valueType>URN</S100FC:valueType>
+    </S100FC:S100_FC_SimpleAttribute>
+    <S100FC:S100_FC_SimpleAttribute>
+      <S100FC:name>Feature Identifier</S100FC:name>
+      <S100FC:definition>Feature Identifier</S100FC:definition>
+      <S100FC:code>featureIdentifier</S100FC:code>
+      <S100FC:valueType>URN</S100FC:valueType>
+    </S100FC:S100_FC_SimpleAttribute>
+    <S100FC:S100_FC_SimpleAttribute>
+      <S100FC:name>Warning Identifier</S100FC:name>
+      <S100FC:definition>Warning Identifier</S100FC:definition>
+      <S100FC:code>warningIdentifier</S100FC:code>
+      <S100FC:valueType>URN</S100FC:valueType>
+    </S100FC:S100_FC_SimpleAttribute>
+    <S100FC:S100_FC_SimpleAttribute>
+      <S100FC:name>Name Of Series</S100FC:name>
+      <S100FC:definition>Name Of Series</S100FC:definition>
+      <S100FC:code>nameOfSeries</S100FC:code>
+      <S100FC:valueType>text</S100FC:valueType>
+    </S100FC:S100_FC_SimpleAttribute>
+    <S100FC:S100_FC_SimpleAttribute>
+      <S100FC:name>Feature Object Identifier</S100FC:name>
+      <S100FC:definition>Feature Object Identifier</S100FC:definition>
+      <S100FC:code>featureObjectIdentifier</S100FC:code>
+      <S100FC:valueType>text</S100FC:valueType>
+    </S100FC:S100_FC_SimpleAttribute>
+    <S100FC:S100_FC_SimpleAttribute>
+      <S100FC:name>Production Agency</S100FC:name>
+      <S100FC:definition>Production Agency</S100FC:definition>
+      <S100FC:code>productionAgency</S100FC:code>
+      <S100FC:valueType>text</S100FC:valueType>
+    </S100FC:S100_FC_SimpleAttribute>
+    <S100FC:S100_FC_SimpleAttribute>
+      <S100FC:name>Update Number</S100FC:name>
+      <S100FC:definition>Update Number</S100FC:definition>
+      <S100FC:code>updateNumber</S100FC:code>
+      <S100FC:valueType>text</S100FC:valueType>
+    </S100FC:S100_FC_SimpleAttribute>
+    <S100FC:S100_FC_SimpleAttribute>
+      <S100FC:name>Edition Number</S100FC:name>
+      <S100FC:definition>Edition Number</S100FC:definition>
+      <S100FC:code>editionNumber</S100FC:code>
+      <S100FC:valueType>text</S100FC:valueType>
+    </S100FC:S100_FC_SimpleAttribute>
+    <S100FC:S100_FC_SimpleAttribute>
+      <S100FC:name>Chart Plan Number</S100FC:name>
+      <S100FC:definition>Chart Plan Number</S100FC:definition>
+      <S100FC:code>chartPlanNumber</S100FC:code>
+      <S100FC:valueType>text</S100FC:valueType>
+    </S100FC:S100_FC_SimpleAttribute>
+    <S100FC:S100_FC_SimpleAttribute>
+      <S100FC:name>International Chart Affected</S100FC:name>
+      <S100FC:definition>International Chart Affected</S100FC:definition>
+      <S100FC:code>internationalChartAffected</S100FC:code>
+      <S100FC:valueType>text</S100FC:valueType>
+    </S100FC:S100_FC_SimpleAttribute>
+    <S100FC:S100_FC_SimpleAttribute>
+      <S100FC:name>Publication Affected</S100FC:name>
+      <S100FC:definition>Publication Affected</S100FC:definition>
+      <S100FC:code>publicationAffected</S100FC:code>
+      <S100FC:valueType>text</S100FC:valueType>
+    </S100FC:S100_FC_SimpleAttribute>
+    <S100FC:S100_FC_SimpleAttribute>
+      <S100FC:name>Chart number</S100FC:name>
+      <S100FC:definition>Chart number. Note, can be either paper chart number or ENC file name.</S100FC:definition>
+      <S100FC:code>chartNumber</S100FC:code>
+      <S100FC:valueType>text</S100FC:valueType>
+    </S100FC:S100_FC_SimpleAttribute>
+    <S100FC:S100_FC_SimpleAttribute>
+      <S100FC:name>Edition Date</S100FC:name>
+      <S100FC:definition>Date of publishing for example of a publication, chart, or product.</S100FC:definition>
+      <S100FC:code>editionDate</S100FC:code>
+      <S100FC:valueType>date</S100FC:valueType>
+    </S100FC:S100_FC_SimpleAttribute>
+    <S100FC:S100_FC_SimpleAttribute>
+      <S100FC:name>Last Notice Date</S100FC:name>
+      <S100FC:definition>Date of the last notice to mariner, such as was applied to a chart or publication.</S100FC:definition>
+      <S100FC:code>lastNoticeDate</S100FC:code>
+      <S100FC:valueType>date</S100FC:valueType>
+    </S100FC:S100_FC_SimpleAttribute>
+    <S100FC:S100_FC_SimpleAttribute>
+      <S100FC:name>List Of Light Number</S100FC:name>
+      <S100FC:definition>List of light number a navigational aid</S100FC:definition>
+      <S100FC:code>listOfLightNumber</S100FC:code>
+      <S100FC:valueType>text</S100FC:valueType>
+    </S100FC:S100_FC_SimpleAttribute>
+    <S100FC:S100_FC_SimpleAttribute>
+      <S100FC:name>ENC Name</S100FC:name>
+      <S100FC:definition>The name of the ENC dataset. This is generally indicated in the dataset metadata (discovery or embedded) and will usually be the same as the name of the dataset file, possibly without the file extension component.</S100FC:definition>
+      <S100FC:code>ENCName</S100FC:code>
+      <S100FC:valueType>text</S100FC:valueType>
+    </S100FC:S100_FC_SimpleAttribute>
+    <S100FC:S100_FC_SimpleAttribute>
+      <S100FC:name>Restriction</S100FC:name>
+      <S100FC:definition>Restriction</S100FC:definition>
+      <S100FC:code>restriction</S100FC:code>
+      <S100FC:valueType>enumeration</S100FC:valueType>
+      <S100FC:listedValues>
+        <S100FC:listedValue>
+          <S100FC:label>entry restricted</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>8</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>entry prohibited</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>7</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>area to be avoided</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>14</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>stopping prohibited</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>25</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>speed restricted</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>27</S100FC:code>
+        </S100FC:listedValue>
+      </S100FC:listedValues>
+    </S100FC:S100_FC_SimpleAttribute>
+    <S100FC:S100_FC_SimpleAttribute>
+      <S100FC:name>Display name</S100FC:name>
+      <S100FC:definition>Display name</S100FC:definition>
+      <S100FC:code>displayName</S100FC:code>
+      <S100FC:valueType>boolean</S100FC:valueType>
+    </S100FC:S100_FC_SimpleAttribute>
+    <S100FC:S100_FC_SimpleAttribute>
+      <S100FC:name>Country</S100FC:name>
+      <S100FC:definition>Country</S100FC:definition>
+      <S100FC:code>country</S100FC:code>
+      <S100FC:valueType>text</S100FC:valueType>
+    </S100FC:S100_FC_SimpleAttribute>
+    <S100FC:S100_FC_SimpleAttribute>
+      <S100FC:name>Language</S100FC:name>
+      <S100FC:definition>Language</S100FC:definition>
+      <S100FC:code>language</S100FC:code>
+      <S100FC:valueType>text</S100FC:valueType>
+    </S100FC:S100_FC_SimpleAttribute>
+    <S100FC:S100_FC_SimpleAttribute>
+      <S100FC:name>Name</S100FC:name>
+      <S100FC:definition>Name</S100FC:definition>
+      <S100FC:code>name</S100FC:code>
+      <S100FC:valueType>text</S100FC:valueType>
+    </S100FC:S100_FC_SimpleAttribute>
+    <S100FC:S100_FC_SimpleAttribute>
+      <S100FC:name>Date End</S100FC:name>
+      <S100FC:definition>Date End</S100FC:definition>
+      <S100FC:code>dateEnd</S100FC:code>
+      <S100FC:valueType>S100_TruncatedDate</S100FC:valueType>
+    </S100FC:S100_FC_SimpleAttribute>
+    <S100FC:S100_FC_SimpleAttribute>
+      <S100FC:name>Date Start</S100FC:name>
+      <S100FC:definition>Date Start</S100FC:definition>
+      <S100FC:code>dateStart</S100FC:code>
+      <S100FC:valueType>S100_TruncatedDate</S100FC:valueType>
+    </S100FC:S100_FC_SimpleAttribute>
+    <S100FC:S100_FC_SimpleAttribute>
+      <S100FC:name>Time Of Day End</S100FC:name>
+      <S100FC:definition>Time Of Day End</S100FC:definition>
+      <S100FC:code>timeOfDayEnd</S100FC:code>
+      <S100FC:valueType>time</S100FC:valueType>
+    </S100FC:S100_FC_SimpleAttribute>
+    <S100FC:S100_FC_SimpleAttribute>
+      <S100FC:name>Time Of Day Start</S100FC:name>
+      <S100FC:definition>Time Of Day Start</S100FC:definition>
+      <S100FC:code>timeOfDayStart</S100FC:code>
+      <S100FC:valueType>time</S100FC:valueType>
+    </S100FC:S100_FC_SimpleAttribute>
+    <S100FC:S100_FC_SimpleAttribute>
+      <S100FC:name>Flip Bearing</S100FC:name>
+      <S100FC:definition>Flip Bearing</S100FC:definition>
+      <S100FC:code>flipBearing</S100FC:code>
+      <S100FC:valueType>real</S100FC:valueType>
+    </S100FC:S100_FC_SimpleAttribute>
+    <S100FC:S100_FC_SimpleAttribute>
+      <S100FC:name>Scale Minimum</S100FC:name>
+      <S100FC:definition>Scale Minimum</S100FC:definition>
+      <S100FC:code>scaleMinimum</S100FC:code>
+      <S100FC:valueType>integer</S100FC:valueType>
+    </S100FC:S100_FC_SimpleAttribute>
+    <S100FC:S100_FC_SimpleAttribute>
+      <S100FC:name>Warning Number</S100FC:name>
+      <S100FC:definition>Warning Number</S100FC:definition>
+      <S100FC:code>warningNumber</S100FC:code>
+      <S100FC:valueType>integer</S100FC:valueType>
+    </S100FC:S100_FC_SimpleAttribute>
+    <S100FC:S100_FC_SimpleAttribute>
+      <S100FC:name>Year</S100FC:name>
+      <S100FC:definition>Year</S100FC:definition>
+      <S100FC:code>year</S100FC:code>
+      <S100FC:valueType>integer</S100FC:valueType>
+    </S100FC:S100_FC_SimpleAttribute>
+    <S100FC:S100_FC_SimpleAttribute>
+      <S100FC:name>Text</S100FC:name>
+      <S100FC:definition>Text</S100FC:definition>
+      <S100FC:code>text</S100FC:code>
+      <S100FC:valueType>text</S100FC:valueType>
+    </S100FC:S100_FC_SimpleAttribute>
+    <S100FC:S100_FC_SimpleAttribute>
+      <S100FC:name>Text Justification</S100FC:name>
+      <S100FC:definition>Text Justification</S100FC:definition>
+      <S100FC:code>textJustification</S100FC:code>
+      <S100FC:valueType>enumeration</S100FC:valueType>
+      <S100FC:listedValues>
+        <S100FC:listedValue>
+          <S100FC:label>left</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>1</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>centred</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>2</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>right</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>3</S100FC:code>
+        </S100FC:listedValue>
+      </S100FC:listedValues>
+    </S100FC:S100_FC_SimpleAttribute>
+    <S100FC:S100_FC_SimpleAttribute>
+      <S100FC:name>Warning Type</S100FC:name>
+      <S100FC:definition>Warning Type</S100FC:definition>
+      <S100FC:code>warningType</S100FC:code>
+      <S100FC:valueType>enumeration</S100FC:valueType>
+      <S100FC:listedValues>
+        <S100FC:listedValue>
+          <S100FC:label>local navigational warning</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>1</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>coastal navigational warning</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>2</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>sub-area navigational warning</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>3</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>NAVAREA navigational warning</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>4</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>NAVAREA no warning</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>5</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>sub-area no warning</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>6</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>coastal no warning</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>7</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>local no warning</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>8</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>NAVAREA in force bulletin</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>9</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>sub-area in force bulletin</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>10</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>coastal in force bulletin</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>11</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>local in force bulletin</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>12</S100FC:code>
+        </S100FC:listedValue>
+      </S100FC:listedValues>
+    </S100FC:S100_FC_SimpleAttribute>
+    <S100FC:S100_FC_SimpleAttribute>
+      <S100FC:name>S124_Cancellation Date</S100FC:name>
+      <S100FC:definition>S124_Cancellation Date</S100FC:definition>
+      <S100FC:code>S124_cancellationDate</S100FC:code>
+      <S100FC:valueType>dateTime</S100FC:valueType>
+    </S100FC:S100_FC_SimpleAttribute>
+    <S100FC:S100_FC_SimpleAttribute>
+      <S100FC:name>S124_Publication Date</S100FC:name>
+      <S100FC:definition>S124_Publication Date</S100FC:definition>
+      <S100FC:code>S124_publicationDate</S100FC:code>
+      <S100FC:valueType>dateTime</S100FC:valueType>
+    </S100FC:S100_FC_SimpleAttribute>
+    <S100FC:S100_FC_SimpleAttribute>
+      <S100FC:name>No Message On Hand</S100FC:name>
+      <S100FC:definition>No Message On Hand</S100FC:definition>
+      <S100FC:code>noMessageOnHand</S100FC:code>
+      <S100FC:valueType>boolean</S100FC:valueType>
+    </S100FC:S100_FC_SimpleAttribute>
+    <S100FC:S100_FC_SimpleAttribute>
+      <S100FC:name>Reference Category</S100FC:name>
+      <S100FC:definition>Reference Category</S100FC:definition>
+      <S100FC:code>referenceCategory</S100FC:code>
+      <S100FC:valueType>text</S100FC:valueType>
+    </S100FC:S100_FC_SimpleAttribute>
+    <S100FC:S100_FC_SimpleAttribute>
+      <S100FC:name>HeadLine</S100FC:name>
+      <S100FC:definition>HeadLine</S100FC:definition>
+      <S100FC:code>headline</S100FC:code>
+      <S100FC:valueType>text</S100FC:valueType>
+    </S100FC:S100_FC_SimpleAttribute>
+    <S100FC:S100_FC_SimpleAttribute>
+      <S100FC:name>S124_Warning Hazard Type</S100FC:name>
+      <S100FC:definition>S124_Warning Hazard Type</S100FC:definition>
+      <S100FC:code>S124_warningHazardType</S100FC:code>
+      <S100FC:valueType>enumeration</S100FC:valueType>
+      <S100FC:listedValues>
+        <S100FC:listedValue>
+          <S100FC:label>acoustic recorder</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>1</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>aids to navigation</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>2</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>AIS surveillance systems</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>3</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>anti pollution exercises</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>4</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>anti pollution operations</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>5</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>aquaculture site</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>6</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>breakwater construction</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>7</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>buoy adrift</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>8</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>buoys</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>9</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>cable laying operations</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>10</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>cluster of fishing vessels</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>11</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>container adrift</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>12</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>dangerous wreck</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>13</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>dead whale adrift</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>14</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>deadhead adrift</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>15</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>derelict vessel adrift</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>16</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>DGPS</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>17</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>diving operations</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>18</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>dredging operations</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>19</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>drifting hazard (other)</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>20</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>drill rig on location</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>21</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>drill rig under tow</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>22</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>drilling site operations</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>23</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>exclusion zones</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>24</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>explosive detonation</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>25</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>explosive device</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>26</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>fallout hazard</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>27</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>fireworks</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>28</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>firing exercises</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>29</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>fish-net adrift</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>30</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>floating debris</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>31</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>floating dock</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>32</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>hazardous area</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>33</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>HF Services</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>34</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>hydrographic survey</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>35</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>ice boom</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>36</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>ice control zone in-force/deactivated</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>37</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>iceberg outside advertised limits</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>38</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>in-force bulletin</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>39</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>lights &amp; fog signals</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>40</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>log boom adrift</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>41</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>marine mammals</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>42</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>maritime security - MARSEC level changes</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>43</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>MF Services</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>44</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>military exercises</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>45</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>military operations</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>46</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>mines</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>47</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>MSI Services</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>48</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>mussel farm</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>49</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>national health organizations - changes</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>50</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>nautical information issues</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>51</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>NAVTEX</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>52</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>newly discovered dangers</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>53</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>offshore structures</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>54</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>opening/closing of harbour</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>55</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>opening/closing of swing bridge</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>56</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>opening/closing of waterway</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>57</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>operating anomalies identified within ECDIS including ENC issues</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>58</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>pipe laying operations</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>59</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>pipe or cable laying operations</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>60</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>piracy</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>61</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>race</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>62</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>RACON</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>63</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>radar surveillance systems</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>64</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>radio navigation services</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>65</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>regatta</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>66</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>regulations</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>67</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>research or scientific operations</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>68</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>restricted area</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>69</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>routeing Measures</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>70</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>SafetyNET</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>71</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>sandspit</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>72</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>SAR and anti pollution operations</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>73</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>SAR operations</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>74</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>scientific buoy &amp; apparatus</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>75</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>scientific moorings</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>76</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>scientific survey</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>77</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>sea trials</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>78</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>seaplane operations</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>79</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>search and rescue exercises</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>80</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>seasonal buoy lifting</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>81</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>seasonal buoy placing</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>82</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>seasonal buoy program</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>83</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>security-related requirements</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>84</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>seismic surveys</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>85</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>shallow depth reported</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>86</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>shoal</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>87</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>submerged fish-net</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>88</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>submerged object</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>89</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>subsurface moorings</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>90</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>subsurface pipelines</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>91</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>survey results</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>92</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>swimmers</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>93</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>tide gauges</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>94</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>traffic congestion</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>95</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>tsunami warning</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>96</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>tsunamis and other natural phenomena</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>97</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>uncharted rock</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>98</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>uncharted submarine cables</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>99</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>underwater operations</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>100</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>unidentified radar target, possible iceberg</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>101</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>unwieldy tow</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>102</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>vertical clearance reduced</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>103</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>vessel adrift</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>104</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>vessel disabled</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>105</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>VHF Services</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>106</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>VTS limit change</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>107</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>water levels changed/not as advertised</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>108</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>waterway recommended/not recommended for shipping</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>109</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>wharf construction</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>110</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>works in progress</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>111</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>World Health Organization (WHO) health advisory information</S100FC:label>
+          <S100FC:definition/>
+          <S100FC:code>112</S100FC:code>
+        </S100FC:listedValue>
+      </S100FC:listedValues>
+    </S100FC:S100_FC_SimpleAttribute>
+  </S100FC:S100_FC_SimpleAttributes>
+  <S100FC:S100_FC_ComplexAttributes>
+    <S100FC:S100_FC_ComplexAttribute>
+      <S100FC:name>S124_Chart Affected</S100FC:name>
+      <S100FC:definition>National paper chart number or ENC name.</S100FC:definition>
+      <S100FC:code>S124_chartAffected</S100FC:code>
+      <S100FC:subAttributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>1</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="chartNumber"/>
+      </S100FC:subAttributeBinding>
+      <S100FC:subAttributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>0</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="chartPlanNumber"/>
+      </S100FC:subAttributeBinding>
+      <S100FC:subAttributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>1</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="editionDate"/>
+      </S100FC:subAttributeBinding>
+      <S100FC:subAttributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>0</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="lastNoticeDate"/>
+      </S100FC:subAttributeBinding>
+    </S100FC:S100_FC_ComplexAttribute>
+    <S100FC:S100_FC_ComplexAttribute>
+      <S100FC:name>Feature Reference</S100FC:name>
+      <S100FC:definition>Reference to an object or feature that is external to the dataset.</S100FC:definition>
+      <S100FC:code>S124_featureReference</S100FC:code>
+      <S100FC:subAttributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>0</S100Base:lower>
+          <S100Base:upper xsi:nil="true" infinite="true"/>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="featureIdentifier"/>
+      </S100FC:subAttributeBinding>
+      <S100FC:subAttributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>0</S100Base:lower>
+          <S100Base:upper xsi:nil="true" infinite="true"/>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="listOfLightNumber"/>
+      </S100FC:subAttributeBinding>
+      <S100FC:subAttributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>0</S100Base:lower>
+          <S100Base:upper xsi:nil="true" infinite="true"/>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="S124_ENCFeatureReference"/>
+      </S100FC:subAttributeBinding>
+    </S100FC:S100_FC_ComplexAttribute>
+    <S100FC:S100_FC_ComplexAttribute>
+      <S100FC:name>ENC Feature Reference</S100FC:name>
+      <S100FC:definition/>
+      <S100FC:code>S124_ENCFeatureReference</S100FC:code>
+      <S100FC:subAttributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>1</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="editionNumber"/>
+      </S100FC:subAttributeBinding>
+      <S100FC:subAttributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>1</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="ENCName"/>
+      </S100FC:subAttributeBinding>
+      <S100FC:subAttributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>1</S100Base:lower>
+          <S100Base:upper xsi:nil="true" infinite="true"/>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="featureObjectIdentifier"/>
+      </S100FC:subAttributeBinding>
+      <S100FC:subAttributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>1</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="updateNumber"/>
+      </S100FC:subAttributeBinding>
+    </S100FC:S100_FC_ComplexAttribute>
+    <S100FC:S100_FC_ComplexAttribute>
+      <S100FC:name>General Area</S100FC:name>
+      <S100FC:definition>The general area used to identify which broad geographic region the message affects. The geographical name which is selected for the general area should be one that can be found on charts and in nautical publications. (S-53, 6).</S100FC:definition>
+      <S100FC:code>S124_generalArea</S100FC:code>
+      <S100FC:subAttributeBinding sequential="true">
+        <S100FC:multiplicity>
+          <S100Base:lower>0</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="S124_localityIdentifier"/>
+      </S100FC:subAttributeBinding>
+      <S100FC:subAttributeBinding sequential="true">
+        <S100FC:multiplicity>
+          <S100Base:lower>1</S100Base:lower>
+          <S100Base:upper xsi:nil="true" infinite="true"/>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="S124_locationName"/>
+      </S100FC:subAttributeBinding>
+    </S100FC:S100_FC_ComplexAttribute>
+    <S100FC:S100_FC_ComplexAttribute>
+      <S100FC:name>Locality</S100FC:name>
+      <S100FC:definition>Name and/or identifier of an area locality</S100FC:definition>
+      <S100FC:code>S124_locality</S100FC:code>
+      <S100FC:subAttributeBinding sequential="true">
+        <S100FC:multiplicity>
+          <S100Base:lower>0</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="S124_localityIdentifier"/>
+      </S100FC:subAttributeBinding>
+      <S100FC:subAttributeBinding sequential="true">
+        <S100FC:multiplicity>
+          <S100Base:lower>1</S100Base:lower>
+          <S100Base:upper xsi:nil="true" infinite="true"/>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="S124_locationName"/>
+      </S100FC:subAttributeBinding>
+    </S100FC:S100_FC_ComplexAttribute>
+    <S100FC:S100_FC_ComplexAttribute>
+      <S100FC:name>S124_Location Name</S100FC:name>
+      <S100FC:definition>Name of a location</S100FC:definition>
+      <S100FC:code>S124_locationName</S100FC:code>
+      <S100FC:subAttributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>0</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="language"/>
+      </S100FC:subAttributeBinding>
+      <S100FC:subAttributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>1</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="text"/>
+      </S100FC:subAttributeBinding>
+    </S100FC:S100_FC_ComplexAttribute>
+    <S100FC:S100_FC_ComplexAttribute>
+      <S100FC:name>S124_Affected Chart Publications</S100FC:name>
+      <S100FC:definition>Identifies paper charts, ENCs or publications that are affected by the information.</S100FC:definition>
+      <S100FC:code>S124_affectedChartPublications</S100FC:code>
+      <S100FC:subAttributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>0</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="S124_chartAffected"/>
+      </S100FC:subAttributeBinding>
+      <S100FC:subAttributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>0</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="chartPublicationIdentifier"/>
+      </S100FC:subAttributeBinding>
+      <S100FC:subAttributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>0</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="internationalChartAffected"/>
+      </S100FC:subAttributeBinding>
+      <S100FC:subAttributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>0</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="language"/>
+      </S100FC:subAttributeBinding>
+      <S100FC:subAttributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>0</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="publicationAffected"/>
+      </S100FC:subAttributeBinding>
+    </S100FC:S100_FC_ComplexAttribute>
+    <S100FC:S100_FC_ComplexAttribute>
+      <S100FC:name>Feature Name</S100FC:name>
+      <S100FC:definition>Feature Name</S100FC:definition>
+      <S100FC:code>featureName</S100FC:code>
+      <S100FC:subAttributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>0</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="displayName"/>
+      </S100FC:subAttributeBinding>
+      <S100FC:subAttributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>0</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="language"/>
+      </S100FC:subAttributeBinding>
+      <S100FC:subAttributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>1</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="name"/>
+      </S100FC:subAttributeBinding>
+    </S100FC:S100_FC_ComplexAttribute>
+    <S100FC:S100_FC_ComplexAttribute>
+      <S100FC:name>Fixed Date Range</S100FC:name>
+      <S100FC:definition>Fixed Date Range</S100FC:definition>
+      <S100FC:code>S124_fixedDateRange</S100FC:code>
+      <S100FC:subAttributeBinding sequential="true">
+        <S100FC:multiplicity>
+          <S100Base:lower>0</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="dateEnd"/>
+      </S100FC:subAttributeBinding>
+      <S100FC:subAttributeBinding sequential="true">
+        <S100FC:multiplicity>
+          <S100Base:lower>0</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="dateStart"/>
+      </S100FC:subAttributeBinding>
+      <S100FC:subAttributeBinding sequential="true">
+        <S100FC:multiplicity>
+          <S100Base:lower>0</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="timeOfDayEnd"/>
+      </S100FC:subAttributeBinding>
+      <S100FC:subAttributeBinding sequential="true">
+        <S100FC:multiplicity>
+          <S100Base:lower>0</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="timeOfDayStart"/>
+      </S100FC:subAttributeBinding>
+    </S100FC:S100_FC_ComplexAttribute>
+    <S100FC:S100_FC_ComplexAttribute>
+      <S100FC:name>Warning Information</S100FC:name>
+      <S100FC:definition>Warning Information</S100FC:definition>
+      <S100FC:code>S124_warningInformation</S100FC:code>
+      <S100FC:subAttributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>0</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="headline"/>
+      </S100FC:subAttributeBinding>
+      <S100FC:subAttributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>0</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="language"/>
+      </S100FC:subAttributeBinding>
+      <S100FC:subAttributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>1</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="text"/>
+      </S100FC:subAttributeBinding>
+    </S100FC:S100_FC_ComplexAttribute>
+    <S100FC:S100_FC_ComplexAttribute>
+      <S100FC:name>Message Series Identifier</S100FC:name>
+      <S100FC:definition>Message Series Identifier</S100FC:definition>
+      <S100FC:code>S124_messageSeriesIdentifier</S100FC:code>
+      <S100FC:subAttributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>0</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="country"/>
+      </S100FC:subAttributeBinding>
+      <S100FC:subAttributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>1</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="nameOfSeries"/>
+      </S100FC:subAttributeBinding>
+      <S100FC:subAttributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>1</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="productionAgency"/>
+      </S100FC:subAttributeBinding>
+      <S100FC:subAttributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>0</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="warningIdentifier"/>
+      </S100FC:subAttributeBinding>
+      <S100FC:subAttributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>1</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="warningNumber"/>
+      </S100FC:subAttributeBinding>
+      <S100FC:subAttributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>1</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="warningType"/>
+      </S100FC:subAttributeBinding>
+      <S100FC:subAttributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>1</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="year"/>
+      </S100FC:subAttributeBinding>
+    </S100FC:S100_FC_ComplexAttribute>
+    <S100FC:S100_FC_ComplexAttribute>
+      <S100FC:name>Title</S100FC:name>
+      <S100FC:definition>Title</S100FC:definition>
+      <S100FC:code>title</S100FC:code>
+      <S100FC:subAttributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>0</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="language"/>
+      </S100FC:subAttributeBinding>
+      <S100FC:subAttributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>1</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="text"/>
+      </S100FC:subAttributeBinding>
+    </S100FC:S100_FC_ComplexAttribute>
+  </S100FC:S100_FC_ComplexAttributes>
+  <S100FC:S100_FC_Roles>
+    <S100FC:S100_FC_Role>
+      <S100FC:name>Header</S100FC:name>
+      <S100FC:definition>Header</S100FC:definition>
+      <S100FC:code>header</S100FC:code>
+    </S100FC:S100_FC_Role>
+    <S100FC:S100_FC_Role>
+      <S100FC:name>The Warning Part</S100FC:name>
+      <S100FC:definition>The Warning Part</S100FC:definition>
+      <S100FC:code>theWarningPart</S100FC:code>
+    </S100FC:S100_FC_Role>
+    <S100FC:S100_FC_Role>
+      <S100FC:name>Cartographic Text</S100FC:name>
+      <S100FC:definition>Cartographic Text</S100FC:definition>
+      <S100FC:code>cartographicText</S100FC:code>
+    </S100FC:S100_FC_Role>
+    <S100FC:S100_FC_Role>
+      <S100FC:name>Identifies</S100FC:name>
+      <S100FC:definition>Identifies</S100FC:definition>
+      <S100FC:code>identifies</S100FC:code>
+    </S100FC:S100_FC_Role>
+    <S100FC:S100_FC_Role>
+      <S100FC:name>The References</S100FC:name>
+      <S100FC:definition>The References</S100FC:definition>
+      <S100FC:code>theReferences</S100FC:code>
+    </S100FC:S100_FC_Role>
+    <S100FC:S100_FC_Role>
+      <S100FC:name>The Warning</S100FC:name>
+      <S100FC:definition>The Warning</S100FC:definition>
+      <S100FC:code>theWarning</S100FC:code>
+    </S100FC:S100_FC_Role>
+  </S100FC:S100_FC_Roles>
+  <S100FC:S100_FC_InformationAssociations>
+    <S100FC:S100_FC_InformationAssociation isAbstract="false">
+      <S100FC:name>Navigational Warning References</S100FC:name>
+      <S100FC:definition>Navigational Warning References</S100FC:definition>
+      <S100FC:code>NWReferences</S100FC:code>
+      <S100FC:role ref="theReferences"/>
+      <S100FC:role ref="theWarning"/>
+    </S100FC:S100_FC_InformationAssociation>
+    <S100FC:S100_FC_InformationAssociation isAbstract="false">
+      <S100FC:name>Navigational Warning Preamble Content</S100FC:name>
+      <S100FC:definition>Association for the binding of navigational warning parts to the preamble</S100FC:definition>
+      <S100FC:code>NWPreambleContent</S100FC:code>
+      <S100FC:role ref="header"/>
+      <S100FC:role ref="theWarningPart"/>
+    </S100FC:S100_FC_InformationAssociation>
+  </S100FC:S100_FC_InformationAssociations>
+  <S100FC:S100_FC_FeatureAssociations>
+    <S100FC:S100_FC_FeatureAssociation isAbstract="false">
+      <S100FC:name>TextAssociation</S100FC:name>
+      <S100FC:definition>Acossiation for biding warning part to text placement</S100FC:definition>
+      <S100FC:code>TextAssociation</S100FC:code>
+      <S100FC:role ref="cartographicText"/>
+      <S100FC:role ref="identifies"/>
+    </S100FC:S100_FC_FeatureAssociation>
+  </S100FC:S100_FC_FeatureAssociations>
+  <S100FC:S100_FC_InformationTypes>
+    <S100FC:S100_FC_InformationType isAbstract="false">
+      <S100FC:name>S124_References</S100FC:name>
+      <S100FC:definition>S124_References</S100FC:definition>
+      <S100FC:code>S124_References</S100FC:code>
+      <S100FC:attributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>0</S100Base:lower>
+          <S100Base:upper xsi:nil="true" infinite="true"/>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="S124_messageSeriesIdentifier"/>
+      </S100FC:attributeBinding>
+      <S100FC:attributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>1</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="noMessageOnHand"/>
+      </S100FC:attributeBinding>
+      <S100FC:attributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>1</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="referenceCategory"/>
+      </S100FC:attributeBinding>
+      <S100FC:informationBinding roleType="association">
+        <S100FC:multiplicity>
+          <S100Base:lower>0</S100Base:lower>
+          <S100Base:upper xsi:nil="true" infinite="true"/>
+        </S100FC:multiplicity>
+        <S100FC:association ref="NWReferences"/>
+        <S100FC:role ref="theReferences"/>
+        <S100FC:informationType ref="S124_NWPreamble"/>
+      </S100FC:informationBinding>
+      <S100FC:informationBinding roleType="association">
+        <S100FC:multiplicity>
+          <S100Base:lower>1</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:association ref="NWReferences"/>
+        <S100FC:role ref="theWarning"/>
+        <S100FC:informationType ref="S124_NWPreamble"/>
+      </S100FC:informationBinding>
+    </S100FC:S100_FC_InformationType>
+    <S100FC:S100_FC_InformationType isAbstract="false">
+      <S100FC:name>S124_NWPreamble</S100FC:name>
+      <S100FC:definition>S124_NWPreamble</S100FC:definition>
+      <S100FC:code>S124_NWPreamble</S100FC:code>
+      <S100FC:attributeBinding sequential="true">
+        <S100FC:multiplicity>
+          <S100Base:lower>0</S100Base:lower>
+          <S100Base:upper xsi:nil="true" infinite="true"/>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="S124_locality"/>
+      </S100FC:attributeBinding>
+      <S100FC:attributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>1</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="S124_messageSeriesIdentifier"/>
+      </S100FC:attributeBinding>
+      <S100FC:attributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>0</S100Base:lower>
+          <S100Base:upper xsi:nil="true" infinite="true"/>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="S124_affectedChartPublications"/>
+      </S100FC:attributeBinding>
+      <S100FC:attributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>0</S100Base:lower>
+          <S100Base:upper xsi:nil="true" infinite="true"/>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="title"/>
+      </S100FC:attributeBinding>
+      <S100FC:attributeBinding sequential="true">
+        <S100FC:multiplicity>
+          <S100Base:lower>1</S100Base:lower>
+          <S100Base:upper xsi:nil="true" infinite="true"/>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="S124_generalArea"/>
+      </S100FC:attributeBinding>
+      <S100FC:attributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>0</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="S124_cancellationDate"/>
+      </S100FC:attributeBinding>
+      <S100FC:attributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>1</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="S124_publicationDate"/>
+      </S100FC:attributeBinding>
+      <S100FC:informationBinding roleType="association">
+        <S100FC:multiplicity>
+          <S100Base:lower>0</S100Base:lower>
+          <S100Base:upper xsi:nil="true" infinite="true"/>
+        </S100FC:multiplicity>
+        <S100FC:association ref="NWReferences"/>
+        <S100FC:role ref="theReferences"/>
+        <S100FC:informationType ref="S124_References"/>
+      </S100FC:informationBinding>
+      <S100FC:informationBinding roleType="association">
+        <S100FC:multiplicity>
+          <S100Base:lower>1</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:association ref="NWReferences"/>
+        <S100FC:role ref="theWarning"/>
+        <S100FC:informationType ref="S124_References"/>
+      </S100FC:informationBinding>
+    </S100FC:S100_FC_InformationType>
+  </S100FC:S100_FC_InformationTypes>
+  <S100FC:S100_FC_FeatureTypes>
+    <S100FC:S100_FC_FeatureType isAbstract="false">
+      <S100FC:name>S124_Navigational Warning Feature Part</S100FC:name>
+      <S100FC:definition>S124_Navigational Warning Feature Part</S100FC:definition>
+      <S100FC:code>S124_NavigationalWarningFeaturePart</S100FC:code>
+      <S100FC:attributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>0</S100Base:lower>
+          <S100Base:upper xsi:nil="true" infinite="true"/>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="featureName"/>
+      </S100FC:attributeBinding>
+      <S100FC:attributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>0</S100Base:lower>
+          <S100Base:upper xsi:nil="true" infinite="true"/>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="S124_featureReference"/>
+      </S100FC:attributeBinding>
+      <S100FC:attributeBinding sequential="true">
+        <S100FC:multiplicity>
+          <S100Base:lower>0</S100Base:lower>
+          <S100Base:upper xsi:nil="true" infinite="true"/>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="S124_fixedDateRange"/>
+      </S100FC:attributeBinding>
+      <S100FC:attributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>0</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:permittedValues>
+          <S100FC:value>8</S100FC:value>
+          <S100FC:value>7</S100FC:value>
+          <S100FC:value>14</S100FC:value>
+          <S100FC:value>25</S100FC:value>
+          <S100FC:value>27</S100FC:value>
+        </S100FC:permittedValues>
+        <S100FC:attribute ref="restriction"/>
+      </S100FC:attributeBinding>
+      <S100FC:attributeBinding sequential="true">
+        <S100FC:multiplicity>
+          <S100Base:lower>1</S100Base:lower>
+          <S100Base:upper xsi:nil="true" infinite="true"/>
+        </S100FC:multiplicity>
+        <S100FC:permittedValues>
+          <S100FC:value>1</S100FC:value>
+          <S100FC:value>2</S100FC:value>
+          <S100FC:value>3</S100FC:value>
+          <S100FC:value>4</S100FC:value>
+          <S100FC:value>5</S100FC:value>
+          <S100FC:value>6</S100FC:value>
+          <S100FC:value>7</S100FC:value>
+          <S100FC:value>8</S100FC:value>
+          <S100FC:value>9</S100FC:value>
+          <S100FC:value>10</S100FC:value>
+          <S100FC:value>11</S100FC:value>
+          <S100FC:value>12</S100FC:value>
+          <S100FC:value>13</S100FC:value>
+          <S100FC:value>14</S100FC:value>
+          <S100FC:value>15</S100FC:value>
+          <S100FC:value>16</S100FC:value>
+          <S100FC:value>17</S100FC:value>
+          <S100FC:value>18</S100FC:value>
+          <S100FC:value>19</S100FC:value>
+          <S100FC:value>20</S100FC:value>
+          <S100FC:value>21</S100FC:value>
+          <S100FC:value>22</S100FC:value>
+          <S100FC:value>23</S100FC:value>
+          <S100FC:value>24</S100FC:value>
+          <S100FC:value>25</S100FC:value>
+          <S100FC:value>26</S100FC:value>
+          <S100FC:value>27</S100FC:value>
+          <S100FC:value>28</S100FC:value>
+          <S100FC:value>29</S100FC:value>
+          <S100FC:value>30</S100FC:value>
+          <S100FC:value>31</S100FC:value>
+          <S100FC:value>32</S100FC:value>
+          <S100FC:value>33</S100FC:value>
+          <S100FC:value>34</S100FC:value>
+          <S100FC:value>35</S100FC:value>
+          <S100FC:value>36</S100FC:value>
+          <S100FC:value>37</S100FC:value>
+          <S100FC:value>38</S100FC:value>
+          <S100FC:value>39</S100FC:value>
+          <S100FC:value>40</S100FC:value>
+          <S100FC:value>41</S100FC:value>
+          <S100FC:value>42</S100FC:value>
+          <S100FC:value>43</S100FC:value>
+          <S100FC:value>44</S100FC:value>
+          <S100FC:value>45</S100FC:value>
+          <S100FC:value>46</S100FC:value>
+          <S100FC:value>47</S100FC:value>
+          <S100FC:value>48</S100FC:value>
+          <S100FC:value>49</S100FC:value>
+          <S100FC:value>50</S100FC:value>
+          <S100FC:value>51</S100FC:value>
+          <S100FC:value>52</S100FC:value>
+          <S100FC:value>53</S100FC:value>
+          <S100FC:value>54</S100FC:value>
+          <S100FC:value>55</S100FC:value>
+          <S100FC:value>56</S100FC:value>
+          <S100FC:value>57</S100FC:value>
+          <S100FC:value>58</S100FC:value>
+          <S100FC:value>59</S100FC:value>
+          <S100FC:value>60</S100FC:value>
+          <S100FC:value>61</S100FC:value>
+          <S100FC:value>62</S100FC:value>
+          <S100FC:value>63</S100FC:value>
+          <S100FC:value>64</S100FC:value>
+          <S100FC:value>65</S100FC:value>
+          <S100FC:value>66</S100FC:value>
+          <S100FC:value>67</S100FC:value>
+          <S100FC:value>68</S100FC:value>
+          <S100FC:value>69</S100FC:value>
+          <S100FC:value>70</S100FC:value>
+          <S100FC:value>71</S100FC:value>
+          <S100FC:value>72</S100FC:value>
+          <S100FC:value>73</S100FC:value>
+          <S100FC:value>74</S100FC:value>
+          <S100FC:value>75</S100FC:value>
+          <S100FC:value>76</S100FC:value>
+          <S100FC:value>77</S100FC:value>
+          <S100FC:value>78</S100FC:value>
+          <S100FC:value>79</S100FC:value>
+          <S100FC:value>80</S100FC:value>
+          <S100FC:value>81</S100FC:value>
+          <S100FC:value>82</S100FC:value>
+          <S100FC:value>83</S100FC:value>
+          <S100FC:value>84</S100FC:value>
+          <S100FC:value>85</S100FC:value>
+          <S100FC:value>86</S100FC:value>
+          <S100FC:value>87</S100FC:value>
+          <S100FC:value>88</S100FC:value>
+          <S100FC:value>89</S100FC:value>
+          <S100FC:value>90</S100FC:value>
+          <S100FC:value>91</S100FC:value>
+          <S100FC:value>92</S100FC:value>
+          <S100FC:value>93</S100FC:value>
+          <S100FC:value>94</S100FC:value>
+          <S100FC:value>95</S100FC:value>
+          <S100FC:value>96</S100FC:value>
+          <S100FC:value>97</S100FC:value>
+          <S100FC:value>98</S100FC:value>
+          <S100FC:value>99</S100FC:value>
+          <S100FC:value>100</S100FC:value>
+          <S100FC:value>101</S100FC:value>
+          <S100FC:value>102</S100FC:value>
+          <S100FC:value>103</S100FC:value>
+          <S100FC:value>104</S100FC:value>
+          <S100FC:value>105</S100FC:value>
+          <S100FC:value>106</S100FC:value>
+          <S100FC:value>107</S100FC:value>
+          <S100FC:value>108</S100FC:value>
+          <S100FC:value>109</S100FC:value>
+          <S100FC:value>110</S100FC:value>
+          <S100FC:value>111</S100FC:value>
+          <S100FC:value>112</S100FC:value>
+        </S100FC:permittedValues>
+        <S100FC:attribute ref="S124_warningHazardType"/>
+      </S100FC:attributeBinding>
+      <S100FC:attributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>1</S100Base:lower>
+          <S100Base:upper xsi:nil="true" infinite="true"/>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="S124_warningInformation"/>
+      </S100FC:attributeBinding>
+      <S100FC:informationBinding roleType="association">
+        <S100FC:multiplicity>
+          <S100Base:lower>0</S100Base:lower>
+          <S100Base:upper xsi:nil="true" infinite="true"/>
+        </S100FC:multiplicity>
+        <S100FC:association ref="NWPreambleContent"/>
+        <S100FC:role ref="theWarningPart"/>
+        <S100FC:informationType ref="S124_NWPreamble"/>
+      </S100FC:informationBinding>
+      <S100FC:informationBinding roleType="association">
+        <S100FC:multiplicity>
+          <S100Base:lower>1</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:association ref="NWPreambleContent"/>
+        <S100FC:role ref="header"/>
+        <S100FC:informationType ref="S124_NWPreamble"/>
+      </S100FC:informationBinding>
+      <S100FC:featureUseType>geographic</S100FC:featureUseType>
+      <S100FC:featureBinding roleType="association">
+        <S100FC:multiplicity>
+          <S100Base:lower>1</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:association ref="TextAssociation"/>
+        <S100FC:role ref="identifies"/>
+        <S100FC:featureType ref="S124_TextPlacement"/>
+      </S100FC:featureBinding>
+      <S100FC:featureBinding roleType="association">
+        <S100FC:multiplicity>
+          <S100Base:lower>0</S100Base:lower>
+          <S100Base:upper xsi:nil="true" infinite="true"/>
+        </S100FC:multiplicity>
+        <S100FC:association ref="TextAssociation"/>
+        <S100FC:role ref="cartographicText"/>
+        <S100FC:featureType ref="S124_TextPlacement"/>
+      </S100FC:featureBinding>
+      <S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
+      <S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
+      <S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
+    </S100FC:S100_FC_FeatureType>
+    <S100FC:S100_FC_FeatureType isAbstract="false">
+      <S100FC:name>S124_Text Placement</S100FC:name>
+      <S100FC:definition>S124_Text Placement</S100FC:definition>
+      <S100FC:code>S124_TextPlacement</S100FC:code>
+      <S100FC:attributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>0</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="flipBearing"/>
+      </S100FC:attributeBinding>
+      <S100FC:attributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>0</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="scaleMinimum"/>
+      </S100FC:attributeBinding>
+      <S100FC:attributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>1</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="text"/>
+      </S100FC:attributeBinding>
+      <S100FC:attributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>1</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:permittedValues>
+          <S100FC:value>1</S100FC:value>
+          <S100FC:value>2</S100FC:value>
+          <S100FC:value>3</S100FC:value>
+        </S100FC:permittedValues>
+        <S100FC:attribute ref="textJustification"/>
+      </S100FC:attributeBinding>
+      <S100FC:featureUseType>geographic</S100FC:featureUseType>
+      <S100FC:featureBinding roleType="association">
+        <S100FC:multiplicity>
+          <S100Base:lower>1</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:association ref="TextAssociation"/>
+        <S100FC:role ref="identifies"/>
+        <S100FC:featureType ref="S124_NavigationalWarningFeaturePart"/>
+      </S100FC:featureBinding>
+      <S100FC:featureBinding roleType="association">
+        <S100FC:multiplicity>
+          <S100Base:lower>0</S100Base:lower>
+          <S100Base:upper xsi:nil="true" infinite="true"/>
+        </S100FC:multiplicity>
+        <S100FC:association ref="TextAssociation"/>
+        <S100FC:role ref="cartographicText"/>
+        <S100FC:featureType ref="S124_NavigationalWarningFeaturePart"/>
+      </S100FC:featureBinding>
+      <S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
+    </S100FC:S100_FC_FeatureType>
+  </S100FC:S100_FC_FeatureTypes>
+</S100FC:S100_FC_FeatureCatalogue>

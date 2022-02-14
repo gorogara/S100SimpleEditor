@@ -1,0 +1,509 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<S100FC:S100_FC_FeatureCatalogue xmlns:S100FC="http://www.iho.int/S100FC" xmlns:S100Base="http://www.iho.int/S100Base" xmlns:S100CI="http://www.iho.int/S100CI" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:S100FD="http://www.iho.int/S100FD" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.iho.int/S100FC S100FC.xsd">
+  <S100FC:name>S-130</S100FC:name>
+  <S100FC:scope></S100FC:scope>
+  <S100FC:fieldOfApplication></S100FC:fieldOfApplication>
+  <S100FC:versionNumber>0.0.1</S100FC:versionNumber>
+  <S100FC:versionDate>2020-04-09</S100FC:versionDate>
+  <S100FC:producer>
+    <S100CI:role>pointOfContact</S100CI:role>
+    <S100CI:party>
+      <S100CI:CI_Organisation>
+        <S100CI:name>KHOA</S100CI:name>
+        <S100CI:contactInfo>
+          <S100CI:address>
+            <S100CI:administrativeArea>Busan, Korea</S100CI:administrativeArea>
+            <S100CI:country>Korea</S100CI:country>
+            <S100CI:electronicMailAddress>ybaek@korea.kr</S100CI:electronicMailAddress>
+          </S100CI:address>
+          <S100CI:onlineResource>
+            <S100CI:linkage>www.iho.int</S100CI:linkage>
+          </S100CI:onlineResource>
+        </S100CI:contactInfo>
+      </S100CI:CI_Organisation>
+    </S100CI:party>
+  </S100FC:producer>
+  <S100FC:classification>unclassified</S100FC:classification>
+  <S100FC:S100_FC_SimpleAttributes>
+    <S100FC:S100_FC_SimpleAttribute>
+      <S100FC:name>Scale minimum</S100FC:name>
+      <S100FC:definition>The minimum scale at which the object may be used, e.g., for ECDIS presentation.</S100FC:definition>
+      <S100FC:code>scaleMinimum</S100FC:code>
+      <S100FC:remarks>The modulus of the scale is indicated, that is 1:1 250 000 is encoded as 1250000.</S100FC:remarks>
+      <S100FC:alias>SCAMIN</S100FC:alias>
+      <S100FC:valueType>integer</S100FC:valueType>
+    </S100FC:S100_FC_SimpleAttribute>
+    <S100FC:S100_FC_SimpleAttribute>
+      <S100FC:name>language</S100FC:name>
+      <S100FC:definition>The method of human communication, either spoken or written, consisting of the use of words in a structured and conventional way.</S100FC:definition>
+      <S100FC:code>language</S100FC:code>
+      <S100FC:remarks>The language is encoded by a 3 character code following ISO 639-2/T.</S100FC:remarks>
+      <S100FC:valueType>text</S100FC:valueType>
+    </S100FC:S100_FC_SimpleAttribute>
+    <S100FC:S100_FC_SimpleAttribute>
+      <S100FC:name>Display Name</S100FC:name>
+      <S100FC:definition>A statement expressing if a feature name is to be displayed in certain systemdisplay settings or not.</S100FC:definition>
+      <S100FC:code>displayName</S100FC:code>
+      <S100FC:remarks>Where it is allowable to encode multiple instances of feature name for a single feature instance, only onefeature name instance can indicate that the name is to be displayed (display name set to True).</S100FC:remarks>
+      <S100FC:valueType>boolean</S100FC:valueType>
+    </S100FC:S100_FC_SimpleAttribute>
+    <S100FC:S100_FC_SimpleAttribute>
+      <S100FC:name>Name</S100FC:name>
+      <S100FC:definition>The individual name of a feature.</S100FC:definition>
+      <S100FC:code>name</S100FC:code>
+      <S100FC:alias>OBJNAM</S100FC:alias>
+      <S100FC:valueType>text</S100FC:valueType>
+    </S100FC:S100_FC_SimpleAttribute>
+    
+    <S100FC:S100_FC_SimpleAttribute>
+      <S100FC:name>Text</S100FC:name>
+      <S100FC:definition>A non-formatted digital text string.</S100FC:definition>
+      <S100FC:code>text</S100FC:code>
+      <S100FC:remarks>Should be used, for example, to hold the information that is for short cautionary or explanatory notes. Therefore, text populated in text must not exceed 300 characters.  Text may be in English, or in a national language.  No formatting of text is possible within text. If formatted text, or text strings exceeding 300 characters, is required, then an alternate concept should be used.</S100FC:remarks>
+      <S100FC:alias>INFORM; NINFOM</S100FC:alias>
+      <S100FC:valueType>text</S100FC:valueType>
+    </S100FC:S100_FC_SimpleAttribute>
+
+    <S100FC:S100_FC_SimpleAttribute>
+      <S100FC:name>Category of sea area</S100FC:name>
+      <S100FC:definition>Classification of an area based on its physical characteristics</S100FC:definition>
+      <S100FC:code>categoryOfSeaArea</S100FC:code>
+      <S100FC:alias>CATSEA</S100FC:alias>
+      <S100FC:valueType>enumeration</S100FC:valueType>
+      <S100FC:listedValues>
+        <S100FC:listedValue>
+          <S100FC:label>gat</S100FC:label>
+          <S100FC:definition>a natural or artificial passage or channel through shoals or steep banks, or across a line of banks lying between two channels.</S100FC:definition>
+          <S100FC:code>2</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>bank</S100FC:label>
+          <S100FC:definition>an elevation over which the depth of water is relatively shallow, but normally sufficient for safe surface navigation.</S100FC:definition>
+          <S100FC:code>3</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>deep</S100FC:label>
+          <S100FC:definition>in oceanography, an obsolete term which was generally restricted to depths greater than 6,000 m.</S100FC:definition>
+          <S100FC:code>4</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>bay</S100FC:label>
+          <S100FC:definition>an indentation in the coastline.</S100FC:definition>
+          <S100FC:code>5</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>trench</S100FC:label>
+          <S100FC:definition>a long narrow, characteristically very deep and asymmetrical depression of the sea floor, with relatively steep sides.</S100FC:definition>
+          <S100FC:code>6</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>basin</S100FC:label>
+          <S100FC:definition>a depression, characteristically in the deep sea floor, more or less equidimensional in plan and of variable extent.</S100FC:definition>
+          <S100FC:code>7</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>Mud Flats</S100FC:label>
+          <S100FC:definition>A level tract of land, as the bed of a dry lake or an area frequently uncovered at low tide. Usually in plural.</S100FC:definition>
+          <S100FC:code>8</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>reef</S100FC:label>
+          <S100FC:definition>rock lying at or near the sea surface that may constitute a hazard to surface navigation.</S100FC:definition>
+          <S100FC:code>9</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>ledge</S100FC:label>
+          <S100FC:definition>a rocky formation continuous with and fringing the shore.</S100FC:definition>
+          <S100FC:code>10</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>canyon</S100FC:label>
+          <S100FC:definition>a relatively narrow, deep depression with steep sides, the bottom of which generally has a continuous slope, developed characteristically on some continental slopes.</S100FC:definition>
+          <S100FC:code>11</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>narrows</S100FC:label>
+          <S100FC:definition>a navigable narrow part of a bay, strait, river, etc.</S100FC:definition>
+          <S100FC:code>12</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>shoal</S100FC:label>
+          <S100FC:definition>an offshore hazard to surface navigation that is composed of unconsolidated material.</S100FC:definition>
+          <S100FC:code>13</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>knoll</S100FC:label>
+          <S100FC:definition>a relatively small isolated elevation of a rounded shape.</S100FC:definition>
+          <S100FC:code>14</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>ridge</S100FC:label>
+          <S100FC:definition>(a) A long, narrow elevation with steep sides. (b) A long, narrow elevation often separating ocean basins. (c) The linked major mid-oceanic mountain systems of global extent.</S100FC:definition>
+          <S100FC:code>15</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>seamount</S100FC:label>
+          <S100FC:definition>a large isolated elevation, greater than 1000m in relief above the sea floor, characteristically of conical form.</S100FC:definition>
+          <S100FC:code>16</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>pinnacle</S100FC:label>
+          <S100FC:definition>any high tower or spire-shaped pillar or rock or coral, alone or cresting a summit. It may extend above the surface of the water. It may or may not be a hazard to surface navigation.</S100FC:definition>
+          <S100FC:code>17</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>abyssal plain</S100FC:label>
+          <S100FC:definition>an extensive, flat, gently sloping or nearly level region at abyssal depths.</S100FC:definition>
+          <S100FC:code>18</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>plateau</S100FC:label>
+          <S100FC:definition>a flat or nearly flat area of considerable extent, dropping off abruptly on one or more sides.</S100FC:definition>
+          <S100FC:code>19</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>spur</S100FC:label>
+          <S100FC:definition>a subordinate elevation, ridge or rise projecting outward from a larger feature.</S100FC:definition>
+          <S100FC:code>20</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>shelf</S100FC:label>
+          <S100FC:definition>a zone adjacent to a continent (or around an island) and extending from the low water line to a depth at which there is usually a marked increase of slope towards oceanic depths.</S100FC:definition>
+          <S100FC:code>21</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>trough</S100FC:label>
+          <S100FC:definition>a long depression of the sea floor characteristically flat bottomed and steep sided and normally shallower than a trench.</S100FC:definition>
+          <S100FC:code>22</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>saddle</S100FC:label>
+          <S100FC:definition>a broad pass, resembling in shape a riding saddle, in a ridge or between contiguous seamounts.</S100FC:definition>
+          <S100FC:code>23</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>abyssal hills</S100FC:label>
+          <S100FC:definition>a tract, on occasion extensive, of low (100-500m) elevations on the deep sea floor.</S100FC:definition>
+          <S100FC:code>24</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>apron</S100FC:label>
+          <S100FC:definition>a gently dipping featureless surface, underlain primarily by sediment, at the base of any steeper slope.</S100FC:definition>
+          <S100FC:code>25</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>archipelagic apron</S100FC:label>
+          <S100FC:definition>a gentle slope with a generally smooth surface on the sea floor, characteristically found around groups of islands or seamounts.</S100FC:definition>
+          <S100FC:code>26</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>borderland</S100FC:label>
+          <S100FC:definition>a region adjacent to a continent, normally occupied by or bordering a shelf, that is highly irregular with depths well in excess of those typical of a shelf.</S100FC:definition>
+          <S100FC:code>27</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>continental margin</S100FC:label>
+          <S100FC:definition>the zone, generally consisting of shelf, slope and rise, separating the continent from the abyssal plain or deep sea floor.</S100FC:definition>
+          <S100FC:code>28</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>continental rise</S100FC:label>
+          <S100FC:definition>a gentle slope rising from the oceanic depths towards the foot of a continental slope.</S100FC:definition>
+          <S100FC:code>29</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>escarpment</S100FC:label>
+          <S100FC:definition>an elongated and comparatively steep slope separating or gently sloping areas.</S100FC:definition>
+          <S100FC:code>30</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>fan</S100FC:label>
+          <S100FC:definition>a relatively smooth, fan-like, depositional feature normally sloping away from the outer termination of a canyon or canyon system.</S100FC:definition>
+          <S100FC:code>31</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>fracture zone</S100FC:label>
+          <S100FC:definition>an extensive linear zone of irregular topography of the sea floor, characterized by steep-sided or asymmetrical ridges, troughs or escarpments.</S100FC:definition>
+          <S100FC:code>32</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>gap</S100FC:label>
+          <S100FC:definition>a narrow break in a ridge or a rise.</S100FC:definition>
+          <S100FC:code>33</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>guyot</S100FC:label>
+          <S100FC:definition>a seamount having a comparatively smooth flat top.</S100FC:definition>
+          <S100FC:code>34</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>hill</S100FC:label>
+          <S100FC:definition>a small isolated elevation (see also abyssal hills).</S100FC:definition>
+          <S100FC:code>35</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>hole</S100FC:label>
+          <S100FC:definition>a local depression, often steep sided, of the sea floor.</S100FC:definition>
+          <S100FC:code>36</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>levee</S100FC:label>
+          <S100FC:definition>a depositional embankment bordering a canyon, valley or deep-sea channel.</S100FC:definition>
+          <S100FC:code>37</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>median valley</S100FC:label>
+          <S100FC:definition>the axial depression of the mid-oceanic ridge system.</S100FC:definition>
+          <S100FC:code>38</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>moat</S100FC:label>
+          <S100FC:definition>an annular depression that may not be continuous, located at the base of many seamounts, islands and other isolated elevations.</S100FC:definition>
+          <S100FC:code>39</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>mountains</S100FC:label>
+          <S100FC:definition>a large and complex grouping of ridges and seamounts.</S100FC:definition>
+          <S100FC:code>40</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>peak</S100FC:label>
+          <S100FC:definition>a prominent elevation either pointed or of a very limited extent across the summit.</S100FC:definition>
+          <S100FC:code>41</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>province</S100FC:label>
+          <S100FC:definition>a region identifiable by a group of similar physiographic features whose characteristics are markedly in contrast with surrounding areas.</S100FC:definition>
+          <S100FC:code>42</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>rise</S100FC:label>
+          <S100FC:definition>(a) A broad elevation that rises gently and generally smoothly from the sea floor. (b) The linked major mid-oceanic mountain systems of global extent.</S100FC:definition>
+          <S100FC:code>43</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>sea channel</S100FC:label>
+          <S100FC:definition>a continuously sloping, elongated narrow depression commonly found in fans or abyssal plains and customarily bordered by levees on one or both sides.</S100FC:definition>
+          <S100FC:code>44</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>Seamount Chain</S100FC:label>
+          <S100FC:definition>Several seamounts in linear or arcuate alignment. Also called: seamounts.</S100FC:definition>
+          <S100FC:code>45</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>shelf-edge</S100FC:label>
+          <S100FC:definition>a narrow zone at the seaward margin of a shelf along which is a marked increase of slope.</S100FC:definition>
+          <S100FC:code>46</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>sill</S100FC:label>
+          <S100FC:definition>a sea floor barrier of relatively shallow depth restricting water movement between basins.</S100FC:definition>
+          <S100FC:code>47</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>slope</S100FC:label>
+          <S100FC:definition>the slope seaward from the shelf edge to the upper edge of a continental rise or the point where there is a general reduction in slope.</S100FC:definition>
+          <S100FC:code>48</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>terrace</S100FC:label>
+          <S100FC:definition>a relatively flat horizontal or gently inclined surface, sometimes long and narrow, which is bounded by a steeper ascending slope on one side and by a steeper descending slope on the opposite side.</S100FC:definition>
+          <S100FC:code>49</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>valley</S100FC:label>
+          <S100FC:definition>a relatively shallow, wide depression, the bottom of which usually has a continuous gradient. This term is generally not used for features that have canyon-like characteristics for a significant portion of their extent.</S100FC:definition>
+          <S100FC:code>50</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>canal</S100FC:label>
+          <S100FC:definition>an artificial water course used for navigation.</S100FC:definition>
+          <S100FC:code>51</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>lake</S100FC:label>
+          <S100FC:definition>a large body of water entirely surrounded by land.</S100FC:definition>
+          <S100FC:code>52</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>river</S100FC:label>
+          <S100FC:definition>a relatively large natural stream of water.</S100FC:definition>
+          <S100FC:code>53</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>reach</S100FC:label>
+          <S100FC:definition>a straight section of a river, especially a navigable river between two bends or an arm of the sea extending into the land</S100FC:definition>
+          <S100FC:code>54</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>Intertidal Cay</S100FC:label>
+          <S100FC:definition>A low, flat island of sand, coral, etc. awash or submerged at high water.</S100FC:definition>
+          <S100FC:code>55</S100FC:code>
+        </S100FC:listedValue>
+        <S100FC:listedValue>
+          <S100FC:label>Submarine volcano</S100FC:label>
+          <S100FC:definition>a vent in the earth's crust through which lava, steam, ashes, etc., are expelled, either continuously or at irregular intervals that is located underwater</S100FC:definition>
+          <S100FC:code>56</S100FC:code>
+        </S100FC:listedValue>
+      </S100FC:listedValues>
+    </S100FC:S100_FC_SimpleAttribute>
+  </S100FC:S100_FC_SimpleAttributes>
+  <S100FC:S100_FC_ComplexAttributes>
+    <S100FC:S100_FC_ComplexAttribute>
+      <S100FC:name>Feature Name</S100FC:name>
+      <S100FC:definition>The complex attribute provides the name of an entity, defines the national language of the name, and provides the option to display the name at various system display settings.</S100FC:definition>
+      <S100FC:code>featureName</S100FC:code>
+      <S100FC:subAttributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>0</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="displayName"/>
+      </S100FC:subAttributeBinding>
+      <S100FC:subAttributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>0</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="language"/>
+      </S100FC:subAttributeBinding>
+      <S100FC:subAttributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>1</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="name"/>
+      </S100FC:subAttributeBinding>
+    </S100FC:S100_FC_ComplexAttribute>
+
+    
+    <S100FC:S100_FC_ComplexAttribute>
+      <S100FC:name>Information</S100FC:name>
+      <S100FC:definition>Textual information about the shape of a non-standard topmark.</S100FC:definition>
+      <S100FC:code>information</S100FC:code>
+      <S100FC:remarks>No formatting of text is possible within shape information. If formatted text is required, then an associatedtext file referenced by the complex attribute textual description must be used</S100FC:remarks>
+      <S100FC:subAttributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>0</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="language" />
+      </S100FC:subAttributeBinding>
+      <S100FC:subAttributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>1</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="text" />
+      </S100FC:subAttributeBinding>
+    </S100FC:S100_FC_ComplexAttribute>
+
+  </S100FC:S100_FC_ComplexAttributes>
+  <S100FC:S100_FC_Roles>
+  </S100FC:S100_FC_Roles>
+  <S100FC:S100_FC_InformationAssociations>
+  </S100FC:S100_FC_InformationAssociations>
+  <S100FC:S100_FC_FeatureAssociations>
+  </S100FC:S100_FC_FeatureAssociations>
+  <S100FC:S100_FC_InformationTypes>
+    <!--FC does not provide for referencing spatial types, so no info assoc to spatial type-->
+  </S100FC:S100_FC_InformationTypes>
+  <S100FC:S100_FC_FeatureTypes>
+    <S100FC:S100_FC_FeatureType isAbstract="false">
+      <S100FC:name>Sea area/named water area</S100FC:name>
+      <S100FC:definition>A geographically defined part of the sea or other navigable waters. It may be specified within its limits by its proper name.</S100FC:definition>
+      <S100FC:code>SeaAreaNamedWaterArea</S100FC:code>
+      <S100FC:remarks>Each sea area is defined independent of any other. Smaller sea areas may be located within larger sea areas.</S100FC:remarks>
+      <S100FC:alias>SEAARE</S100FC:alias>
+      <S100FC:attributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>0</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:permittedValues>
+          <S100FC:value>2</S100FC:value>
+          <S100FC:value>3</S100FC:value>
+          <S100FC:value>4</S100FC:value>
+          <S100FC:value>5</S100FC:value>
+          <S100FC:value>6</S100FC:value>
+          <S100FC:value>7</S100FC:value>
+          <S100FC:value>8</S100FC:value>
+          <S100FC:value>9</S100FC:value>
+          <S100FC:value>10</S100FC:value>
+          <S100FC:value>11</S100FC:value>
+          <S100FC:value>12</S100FC:value>
+          <S100FC:value>13</S100FC:value>
+          <S100FC:value>14</S100FC:value>
+          <S100FC:value>15</S100FC:value>
+          <S100FC:value>16</S100FC:value>
+          <S100FC:value>17</S100FC:value>
+          <S100FC:value>18</S100FC:value>
+          <S100FC:value>19</S100FC:value>
+          <S100FC:value>20</S100FC:value>
+          <S100FC:value>21</S100FC:value>
+          <S100FC:value>22</S100FC:value>
+          <S100FC:value>23</S100FC:value>
+          <S100FC:value>24</S100FC:value>
+          <S100FC:value>25</S100FC:value>
+          <S100FC:value>26</S100FC:value>
+          <S100FC:value>27</S100FC:value>
+          <S100FC:value>28</S100FC:value>
+          <S100FC:value>29</S100FC:value>
+          <S100FC:value>30</S100FC:value>
+          <S100FC:value>31</S100FC:value>
+          <S100FC:value>32</S100FC:value>
+          <S100FC:value>33</S100FC:value>
+          <S100FC:value>34</S100FC:value>
+          <S100FC:value>35</S100FC:value>
+          <S100FC:value>36</S100FC:value>
+          <S100FC:value>37</S100FC:value>
+          <S100FC:value>38</S100FC:value>
+          <S100FC:value>39</S100FC:value>
+          <S100FC:value>40</S100FC:value>
+          <S100FC:value>41</S100FC:value>
+          <S100FC:value>42</S100FC:value>
+          <S100FC:value>43</S100FC:value>
+          <S100FC:value>44</S100FC:value>
+          <S100FC:value>45</S100FC:value>
+          <S100FC:value>46</S100FC:value>
+          <S100FC:value>47</S100FC:value>
+          <S100FC:value>48</S100FC:value>
+          <S100FC:value>49</S100FC:value>
+          <S100FC:value>50</S100FC:value>
+          <S100FC:value>51</S100FC:value>
+          <S100FC:value>52</S100FC:value>
+          <S100FC:value>53</S100FC:value>
+          <S100FC:value>54</S100FC:value>
+          <S100FC:value>55</S100FC:value>
+          <S100FC:value>56</S100FC:value>
+        </S100FC:permittedValues>
+        <S100FC:attribute ref="categoryOfSeaArea"/>
+      </S100FC:attributeBinding>
+      <S100FC:attributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>0</S100Base:lower>
+          <S100Base:upper xsi:nil="true" infinite="true"/>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="featureName"/>
+      </S100FC:attributeBinding>
+      <S100FC:attributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>0</S100Base:lower>
+          <S100Base:upper xsi:nil="true" infinite="true"/>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="information"/>
+      </S100FC:attributeBinding>
+      <S100FC:attributeBinding sequential="false">
+        <S100FC:multiplicity>
+          <S100Base:lower>0</S100Base:lower>
+          <S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+        </S100FC:multiplicity>
+        <S100FC:attribute ref="scaleMinimum"/>
+      </S100FC:attributeBinding>
+      <S100FC:featureUseType>geographic</S100FC:featureUseType>
+      <S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
+      <S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
+    </S100FC:S100_FC_FeatureType>
+  </S100FC:S100_FC_FeatureTypes>
+</S100FC:S100_FC_FeatureCatalogue>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="svgStyle.css" type="text/css"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.0" baseProfile="tiny" xml:space="preserve" style="shape-rendering:geometricPrecision; fill-rule:evenodd;" width="3.53mm" height="5.12856mm" viewBox="-1.765 -4.635 3.53 5.12856">
+		<title>망대형 (2줄)</title>
+		<desc>망대형 (2줄) description.</desc>
+		<metadata>
+			<S100SVG xmlns:iho="http://www.iho.int/SVGMetadata">
+				<Description publisher="KHOA" creationDate="2020-12-06" source="S52Preslib4.0" format="S100SVG" version="0.1" />
+			</S100SVG>
+		</metadata>
+		<rect class="symbolBox layout" fill="none" x="-1.72" y="-4.59" height="5.03856" width="3.44" />
+		<rect class="svgBox layout" fill="none" x="-1.72" y="-4.59" height="5.03856" width="3.44" />
+		<path d=" M 0.46,-4.59 L -0.46,-4.59 L -0.65,-2.94 L 0.65,-2.94 L 0.46,-4.59 Z" class="f00005" />
+		<path d=" M 0.65,-2.94 L -0.65,-2.94 L -0.84,-1.3 L 0.84,-1.3 L 0.65,-2.94 Z" class="f00001" />
+		<path d=" M 1.72,0 L -1.72,0 L -1.72,-0.78 L -0.84,-1.3 L 0.84,-1.3 L 1.72,-0.78 L 1.72,0 Z" class="f00005" />
+		<path d=" M 0.84,-1.3 L 0.65,-2.94 L 0.46,-4.59 L -0.46,-4.59 L -0.65,-2.94 L -0.84,-1.3 L -0.84,-1.3 L -1.72,-0.78 L -1.72,0 L 1.72,0 L 1.72,-0.78 L 0.84,-1.3 Z" class="sl f0 s00005" style="stroke-width:0.32;" />
+		<path d=" M -0.84,-1.3 L 0.84,-1.3 Z" class="f0 s00005" style="stroke-width:0.32;" />	
+    <circle class="f00008" cx="-0.00036" cy="-0.00036" r="0.44892" />
+		<circle class="f0 s00005" style="stroke-width:0.32;" cx="-0.00036" cy="-0.00036" r="0.44892" />
+		<circle class="pivotPoint layout" fill="none" cx="0" cy="0" r="0.36" />
+	</svg>
